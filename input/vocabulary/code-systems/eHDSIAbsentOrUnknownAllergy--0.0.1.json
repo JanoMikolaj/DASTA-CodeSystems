@@ -1,0 +1,122 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "eHDSIAbsentOrUnknownAllergy--0.0.1",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz//fhir/CodeSystem/eHDSIAbsentOrUnknownAllergy"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownAllergy",
+  "version" : "0.0.1",
+  "title" : "eHDSIAbsentOrUnknownAllergy",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-04-17T10:01:33.255019Z",
+  "description" : "eHDSIAbsentOrUnknownAllergy",
+  "effectivePeriod" : {
+    "start" : "2025-04-15T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "Code System ID\t",
+    "type" : "string"
+  }, {
+    "code" : "Code System Version\t",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "no-allergy-info",
+    "display" : "Žádné informace o alergiích",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No information about allergies"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID\t",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "Code System Version\t",
+      "valueString" : "0.2.0"
+    } ]
+  }, {
+    "code" : "no-known-allergies",
+    "display" : "Žádné známé alergie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No known allergies"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID\t",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "Code System Version\t",
+      "valueString" : "0.2.0"
+    } ]
+  }, {
+    "code" : "no-known-environmental-allergies",
+    "display" : "Žádné známé alergie na vnější prostředí",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No known environmental allergies"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID\t",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "Code System Version\t",
+      "valueString" : "0.2.0"
+    } ]
+  }, {
+    "code" : "no-known-food-allergies",
+    "display" : "Žádné známé alergie na potraviny",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No known food allergies"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID\t",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "Code System Version\t",
+      "valueString" : "0.2.0"
+    } ]
+  }, {
+    "code" : "no-known-medication-allergies",
+    "display" : "Žádné známé alergie na léky",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No known medication allergies"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID\t",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "Code System Version\t",
+      "valueString" : "0.2.0"
+    } ]
+  } ]
+}
