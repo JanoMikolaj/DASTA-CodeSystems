@@ -1,0 +1,31 @@
+title: TermX
+baseurl: ""
+url: ""
+
+# Theming
+theme: just-the-docs
+just_the_docs:
+  collections:
+    wiki:
+      name: Wiki
+      nav_exclude: true
+
+# Collections
+collections:
+  wiki:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: '_wiki'
+      type: 'wiki'
+    values:
+      layout: page
+      permalink: ':path'
+
+default_lang: 'en'
+
+# Footer
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p"
