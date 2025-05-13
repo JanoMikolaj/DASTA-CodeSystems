@@ -22,10 +22,10 @@
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [ {
-    "code" : "Code System ID\t",
+    "code" : "codeSystemId",
     "type" : "string"
   }, {
-    "code" : "Code System Version\t",
+    "code" : "codeSystemVersion",
     "type" : "string"
   }, {
     "code" : "display",
@@ -44,10 +44,10 @@
       "value" : "No information about allergies"
     } ],
     "property" : [ {
-      "code" : "Code System ID\t",
+      "code" : "codeSystemId",
       "valueString" : "2.16.840.1.113883.5.1150.1"
     }, {
-      "code" : "Code System Version\t",
+      "code" : "codeSystemVersion",
       "valueString" : "0.2.0"
     } ]
   }, {
@@ -61,10 +61,10 @@
       "value" : "No known allergies"
     } ],
     "property" : [ {
-      "code" : "Code System ID\t",
+      "code" : "codeSystemId",
       "valueString" : "2.16.840.1.113883.5.1150.1"
     }, {
-      "code" : "Code System Version\t",
+      "code" : "codeSystemVersion",
       "valueString" : "0.2.0"
     } ]
   }, {
@@ -78,10 +78,10 @@
       "value" : "No known environmental allergies"
     } ],
     "property" : [ {
-      "code" : "Code System ID\t",
+      "code" : "codeSystemId",
       "valueString" : "2.16.840.1.113883.5.1150.1"
     }, {
-      "code" : "Code System Version\t",
+      "code" : "codeSystemVersion",
       "valueString" : "0.2.0"
     } ]
   }, {
@@ -95,10 +95,10 @@
       "value" : "No known food allergies"
     } ],
     "property" : [ {
-      "code" : "Code System ID\t",
+      "code" : "codeSystemId",
       "valueString" : "2.16.840.1.113883.5.1150.1"
     }, {
-      "code" : "Code System Version\t",
+      "code" : "codeSystemVersion",
       "valueString" : "0.2.0"
     } ]
   }, {
@@ -112,10 +112,10 @@
       "value" : "No known medication allergies"
     } ],
     "property" : [ {
-      "code" : "Code System ID\t",
+      "code" : "codeSystemId",
       "valueString" : "2.16.840.1.113883.5.1150.1"
     }, {
-      "code" : "Code System Version\t",
+      "code" : "codeSystemVersion",
       "valueString" : "0.2.0"
     } ]
   } ]
