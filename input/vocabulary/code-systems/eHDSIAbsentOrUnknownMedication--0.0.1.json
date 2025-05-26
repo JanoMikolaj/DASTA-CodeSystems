@@ -1,0 +1,71 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "eHDSIAbsentOrUnknownMedication--0.0.1",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz//fhir/CodeSystem/eHDSIAbsentOrUnknownMedication"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownMedication",
+  "version" : "0.0.1",
+  "title" : "eHDSIAbsentOrUnknownMedication",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-04-24T09:16:09.958281Z",
+  "description" : "eHDSIAbsentOrUnknownMedication",
+  "effectivePeriod" : {
+    "start" : "2025-04-15T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "codeSystemId",
+    "type" : "string"
+  }, {
+    "code" : "codeSystemVersion",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "no-known-medications",
+    "display" : "Žádná známá medikace",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No known medications"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "0.2.0"
+    } ]
+  }, {
+    "code" : "no-medication-info",
+    "display" : "Žádné informace o medikaci",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "No information about medications"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "2.16.840.1.113883.5.1150.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "0.2.0"
+    } ]
+  } ]
+}
