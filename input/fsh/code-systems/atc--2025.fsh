@@ -13,6 +13,7 @@ Description: "Anatomical Therapeutic Chemical (ATC) classification system"
 * ^version = "2025"
 * ^status = #active
 * ^experimental = false
+* ^date = "2025-07-15T06:50:38.553777Z"
 * ^publisher = "WHO Collaborating Centre for Drug Statistics Methodology - Norwegian Institute of Public Health"
 * ^contact.name = "WHO Collaborating Centre for Drug Statistics Methodology - Norwegian Institute of Public Health"
 * ^contact.telecom.system = #url
@@ -22,13 +23,6 @@ Description: "Anatomical Therapeutic Chemical (ATC) classification system"
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^property[0].code = #definition
-* ^property[=].description = "Definition"
-* ^property[=].type = #string
-* ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage|display"
-* ^property[=].description = "Display"
-* ^property[=].type = #string
 * #A "ALIMENTARY TRACT AND METABOLISM"
 * #A #A01 "STOMATOLOGICAL PREPARATIONS"
 * #A #A01 #A01A "STOMATOLOGICAL PREPARATIONS"

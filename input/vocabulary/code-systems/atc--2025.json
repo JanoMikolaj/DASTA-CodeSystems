@@ -31,6 +31,7 @@
   },
   "status" : "active",
   "experimental" : false,
+  "date" : "2025-07-15T06:50:38.553777Z",
   "publisher" : "WHO Collaborating Centre for Drug Statistics Methodology - Norwegian Institute of Public Health",
   "contact" : [ {
     "name" : "WHO Collaborating Centre for Drug Statistics Methodology - Norwegian Institute of Public Health",
@@ -47,16 +48,6 @@
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "property" : [ {
-    "code" : "definition",
-    "description" : "Definition",
-    "type" : "string"
-  }, {
-    "code" : "display",
-    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
-    "description" : "Display",
-    "type" : "string"
-  } ],
   "concept" : [ {
     "code" : "A",
     "display" : "ALIMENTARY TRACT AND METABOLISM",
