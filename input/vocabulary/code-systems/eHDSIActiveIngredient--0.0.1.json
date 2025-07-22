@@ -4,7 +4,7 @@
   "language" : "cs",
   "extension" : [ {
     "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
-    "valueUrl" : "https://termtest.mzcr.cz//fhir/CodeSystem/eHDSIActiveIngredient"
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/eHDSIActiveIngredient"
   }, {
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
     "valueCode" : "executable"

@@ -3,7 +3,7 @@ Id: abusus-tabaku--1.0.0
 Title: "Abusus tabáku"
 Description: "Číselník rozsahu používání tabáku"
 * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-* ^extension[=].valueUrl = "https://termtest.mzcr.cz//fhir/CodeSystem/abusus-tabaku"
+* ^extension[=].valueUrl = "https://termtest.mzcr.cz/fhir/CodeSystem/abusus-tabaku"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
 * ^url = "https://dastacr.cz/dasta/nclp_data/ds_UZIS/AbususTabaku.xml"

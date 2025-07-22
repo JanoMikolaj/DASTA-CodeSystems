@@ -4,7 +4,7 @@ Title: "eHDSIHealthcareProfessionalRole"
 Description: "eHDSIHealthcareProfessionalRole"
 * ^language = #cs
 * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-* ^extension[=].valueUrl = "https://termtest.mzcr.cz//fhir/CodeSystem/eHDSIHealthcareProfessionalRole"
+* ^extension[=].valueUrl = "https://termtest.mzcr.cz/fhir/CodeSystem/eHDSIHealthcareProfessionalRole"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIHealthcareProfessionalRole"

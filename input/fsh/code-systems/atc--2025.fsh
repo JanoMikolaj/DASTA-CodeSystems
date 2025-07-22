@@ -4,7 +4,7 @@ Title: "ATC classification system"
 Description: "Anatomical Therapeutic Chemical (ATC) classification system"
 * ^language = #en
 * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-* ^extension[=].valueUrl = "https://termtest.mzcr.cz//fhir/CodeSystem/atc"
+* ^extension[=].valueUrl = "https://termtest.mzcr.cz/fhir/CodeSystem/atc"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
 * ^url = "http://www.whocc.no/atc"

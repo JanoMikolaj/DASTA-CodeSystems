@@ -7,6 +7,14 @@
     "ct" : "markdown"
   } ]
 }, {
+  "code" : "1048f2b6-95ff-46c0-bd6d-cbf200239db0",
+  "contents" : [ {
+    "name" : "Novinky",
+    "slug" : "novinky",
+    "lang" : "cs",
+    "ct" : "html"
+  } ]
+}, {
   "code" : "4bc50a46-6aa5-4406-ac3f-bacc3e5f33a0",
   "contents" : [ {
     "name" : "Uživatelský manuál",

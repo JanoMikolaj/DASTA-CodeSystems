@@ -3,7 +3,7 @@
   "id" : "abusus-tabaku--1.0.0",
   "extension" : [ {
     "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
-    "valueUrl" : "https://termtest.mzcr.cz//fhir/CodeSystem/abusus-tabaku"
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/abusus-tabaku"
   }, {
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
     "valueCode" : "executable"
