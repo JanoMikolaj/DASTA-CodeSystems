@@ -1,0 +1,1730 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "languages--5.0.0",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.1.0/CodeSystem-v3-ietf3066.html\"><code>urn:ietf:bcp:47</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ar</td><td>Arabic</td></tr><tr><td>bg</td><td>Bulgarian</td></tr><tr><td>bg-BG</td><td>Bulgarian (Bulgaria)</td></tr><tr><td>bn</td><td>Bengali</td></tr><tr><td>cs</td><td>Czech</td></tr><tr><td>cs-CZ</td><td>Czech (Czechia)</td></tr><tr><td>bs</td><td>Bosnian</td></tr><tr><td>bs-BA</td><td>Bosnian (Bosnia and Herzegovina)</td></tr><tr><td>da</td><td>Danish</td></tr><tr><td>da-DK</td><td>Danish (Denmark)</td></tr><tr><td>de</td><td>German</td></tr><tr><td>de-AT</td><td>German (Austria)</td></tr><tr><td>de-CH</td><td>German (Switzerland)</td></tr><tr><td>de-DE</td><td>German (Germany)</td></tr><tr><td>el</td><td>Greek</td></tr><tr><td>el-GR</td><td>Greek (Greece)</td></tr><tr><td>en</td><td>English</td></tr><tr><td>en-AU</td><td>English (Australia)</td></tr><tr><td>en-CA</td><td>English (Canada)</td></tr><tr><td>en-GB</td><td>English (Great Britain)</td></tr><tr><td>en-IN</td><td>English (India)</td></tr><tr><td>en-NZ</td><td>English (New Zealand)</td></tr><tr><td>en-SG</td><td>English (Singapore)</td></tr><tr><td>en-US</td><td>English (United States)</td></tr><tr><td>es</td><td>Spanish</td></tr><tr><td>es-AR</td><td>Spanish (Argentina)</td></tr><tr><td>es-ES</td><td>Spanish (Spain)</td></tr><tr><td>es-UY</td><td>Spanish (Uruguay)</td></tr><tr><td>et</td><td>Estonian</td></tr><tr><td>et-EE</td><td>Estonian (Estonia)</td></tr><tr><td>fi</td><td>Finnish</td></tr><tr><td>fr</td><td>French</td></tr><tr><td>fr-BE</td><td>French (Belgium)</td></tr><tr><td>fr-CH</td><td>French (Switzerland)</td></tr><tr><td>fr-FR</td><td>French (France)</td></tr><tr><td>fi-FI</td><td>Finnish (Finland)</td></tr><tr><td>fr-CA</td><td>French (Canada)</td></tr><tr><td>fy</td><td>Frisian</td></tr><tr><td>fy-NL</td><td>Frisian (Netherlands)</td></tr><tr><td>hi</td><td>Hindi</td></tr><tr><td>hr</td><td>Croatian</td></tr><tr><td>hr-HR</td><td>Croatian (Croatia)</td></tr><tr><td>is</td><td>Icelandic</td></tr><tr><td>is-IS</td><td>Icelandic (Iceland)</td></tr><tr><td>it</td><td>Italian</td></tr><tr><td>it-CH</td><td>Italian (Switzerland)</td></tr><tr><td>it-IT</td><td>Italian (Italy)</td></tr><tr><td>ja</td><td>Japanese</td></tr><tr><td>ko</td><td>Korean</td></tr><tr><td>lt</td><td>Lithuanian</td></tr><tr><td>lt-LT</td><td>Lithuanian (Lithuania)</td></tr><tr><td>lv</td><td>Latvian</td></tr><tr><td>lv-LV</td><td>Latvian (Latvia)</td></tr><tr><td>nl</td><td>Dutch</td></tr><tr><td>nl-BE</td><td>Dutch (Belgium)</td></tr><tr><td>nl-NL</td><td>Dutch (Netherlands)</td></tr><tr><td>no</td><td>Norwegian</td></tr><tr><td>no-NO</td><td>Norwegian (Norway)</td></tr><tr><td>pa</td><td>Punjabi</td></tr><tr><td>pl</td><td>Polish</td></tr><tr><td>pl-PL</td><td>Polish (Poland)</td></tr><tr><td>pt</td><td>Portuguese</td></tr><tr><td>pt-PT</td><td>Portuguese (Portugal)</td></tr><tr><td>pt-BR</td><td>Portuguese (Brazil)</td></tr><tr><td>ro</td><td>Romanian</td></tr><tr><td>ro-RO</td><td>Romanian (Romania)</td></tr><tr><td>ru</td><td>Russian</td></tr><tr><td>ru-RU</td><td>Russian (Russia)</td></tr><tr><td>sk</td><td>Slovakian</td></tr><tr><td>sk-SK</td><td>Slovakian (Slovakia)</td></tr><tr><td>sl</td><td>Slovenian</td></tr><tr><td>sl-SI</td><td>Slovenian (Slovenia)</td></tr><tr><td>sr</td><td>Serbian</td></tr><tr><td>sr-RS</td><td>Serbian (Serbia)</td></tr><tr><td>sv</td><td>Swedish</td></tr><tr><td>sv-SE</td><td>Swedish (Sweden)</td></tr><tr><td>te</td><td>Telugu</td></tr><tr><td>zh</td><td>Chinese</td></tr><tr><td>zh-CN</td><td>Chinese (China)</td></tr><tr><td>zh-HK</td><td>Chinese (Hong Kong)</td></tr><tr><td>zh-SG</td><td>Chinese (Singapore)</td></tr><tr><td>zh-TW</td><td>Chinese (Taiwan)</td></tr></table></li></ul><p><b>Additional Designations and Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>http://terminology.hl7.org/CodeSystem/designation-usage#display</b></td><td><b>Dansk (Danish, da)</b></td><td><b>Deutsch (German, de)</b></td><td><b>English (English, en)</b></td><td><b>Nederlands (Dutch, nl)</b></td><td><b>Polskie (Polish, pl)</b></td><td><b>Русский (Russian, ru)</b></td><td><b>中文 (Chinese, zh)</b></td></tr><tr><td>ar</td><td>阿拉伯语</td><td>Arabisk</td><td></td><td>Arabic</td><td>Arabisch</td><td></td><td></td><td>阿拉伯语</td></tr><tr><td>bg</td><td>Bulgarian</td><td></td><td></td><td>Bulgarian</td><td></td><td></td><td></td><td></td></tr><tr><td>bg-BG</td><td>Bulgarian (Bulgaria)</td><td></td><td></td><td>Bulgarian (Bulgaria)</td><td></td><td></td><td></td><td></td></tr><tr><td>bn</td><td>Bengalsk</td><td>Bengalsk</td><td>Bengalisch</td><td>Bengali</td><td>Bengaals</td><td></td><td>Бенгальский</td><td>孟加拉语</td></tr><tr><td>cs</td><td>Tjekkisk</td><td>Tjekkisk</td><td>Tschechisch</td><td>Czech</td><td>Tsjechisch</td><td></td><td>Чешский</td><td>捷克语</td></tr><tr><td>cs-CZ</td><td>Czech (Czechia)</td><td></td><td></td><td>Czech (Czechia)</td><td></td><td></td><td></td><td></td></tr><tr><td>bs</td><td>Bosnian</td><td></td><td></td><td>Bosnian</td><td></td><td></td><td></td><td></td></tr><tr><td>bs-BA</td><td>Bosnian (Bosnia and Herzegovina))</td><td></td><td></td><td>Bosnian (Bosnia and Herzegovina))</td><td></td><td></td><td></td><td></td></tr><tr><td>da</td><td>Dansk</td><td>Dansk</td><td>Dänisch</td><td>Danish</td><td>Deens</td><td></td><td>Датский</td><td>丹麦语</td></tr><tr><td>da-DK</td><td>Danish (Denmark)</td><td></td><td></td><td>Danish (Denmark)</td><td></td><td></td><td></td><td></td></tr><tr><td>de</td><td>Tysk</td><td>Tysk</td><td>Deutsch</td><td>German</td><td>Duits</td><td></td><td>Немецкий</td><td>德语</td></tr><tr><td>de-AT</td><td>Tysk (Østrig</td><td>Tysk (Østrig</td><td>Deutsch (Österreich)</td><td>German (Austria)</td><td>Duits (Oostenrijk)</td><td></td><td>Немецкий (Австрия)</td><td>德语 （奥地利）</td></tr><tr><td>de-CH</td><td>Tysk (Schweiz)</td><td>Tysk (Schweiz)</td><td>Deutsch (Schweiz)</td><td>German (Switzerland)</td><td>Duits (Zwitserland)</td><td></td><td>Немецкий (Швейцария)</td><td>德语 （瑞士）</td></tr><tr><td>de-DE</td><td>Tysk (Tyskland)</td><td>Tysk (Tyskland)</td><td>Deutsch (Deutschland)</td><td>German (Germany)</td><td>Duits (Duitsland)</td><td></td><td>Немецкий (Германия)</td><td>德语 （德国）</td></tr><tr><td>el</td><td>Græsk</td><td>Græsk</td><td>Griechisch</td><td>Greek</td><td>Grieks</td><td></td><td>Греческий</td><td>希腊语</td></tr><tr><td>el-GR</td><td>Greek (Greece)</td><td></td><td></td><td>Greek (Greece)</td><td></td><td></td><td></td><td></td></tr><tr><td>en</td><td>Engelsk</td><td>Engelsk</td><td>Englisch</td><td>English</td><td>Engels</td><td></td><td>Английский</td><td>英语</td></tr><tr><td>en-AU</td><td>Engelsk (Australien)</td><td>Engelsk (Australien)</td><td>Englisch (Australien)</td><td>English (Australia)</td><td>Engels (Australië)</td><td></td><td>Английский (Австралия)</td><td>英语 （澳大利亚）</td></tr><tr><td>en-CA</td><td>Engelsk (Canada)</td><td>Engelsk (Canada)</td><td>Englisch (Kanada)</td><td>English (Canada)</td><td>Engels (Canada)</td><td></td><td>Английский (Канада)</td><td>英语 （加拿大）</td></tr><tr><td>en-GB</td><td>Engelsk (Storbritannien)</td><td>Engelsk (Storbritannien)</td><td>Englisch (Großbritannien)</td><td>English (Great Britain)</td><td>Engels (Groot Brittannië)</td><td></td><td>Английский (Великобритания)</td><td>英语 （英国）</td></tr><tr><td>en-IN</td><td>Engelsk (Indien)</td><td>Engelsk (Indien)</td><td>Englisch (Indien)</td><td>English (India)</td><td>Engels (India)</td><td></td><td>Английский (Индия)</td><td>英语 （印度）</td></tr><tr><td>en-NZ</td><td>Engelsk (New Zeeland)</td><td>Engelsk (New Zeeland)</td><td>Englisch (Neuseeland)</td><td>English (New Zealand)</td><td>Engels (Nieuw Zeeland)</td><td></td><td>Английский (Новая Зеландия)</td><td>英语 （新西兰）</td></tr><tr><td>en-SG</td><td>Engelsk (Singapore)</td><td>Engelsk (Singapore)</td><td>Englisch (Singapur)</td><td>English (Singapore)</td><td>Engels (Singapore)</td><td></td><td>Английский (Сингапур)</td><td>英语 （新加坡）</td></tr><tr><td>en-US</td><td>Engelsk (Amerikansk)</td><td>Engelsk (Amerikansk)</td><td>Englisch (USA)</td><td>English (United States)</td><td>Engels (Verenigde Staten)</td><td></td><td>Английский (США)</td><td>英语 （美国）</td></tr><tr><td>es</td><td>Spansk</td><td>Spansk</td><td>Spanisch</td><td>Spanish</td><td>Spaans</td><td></td><td>Испанский</td><td>西班牙语</td></tr><tr><td>es-AR</td><td>Spansk (Argentina)</td><td>Spansk (Argentina)</td><td>Spanisch (Argentinien)</td><td>Spanish (Argentina)</td><td>Spaans (Argentinië)</td><td></td><td>Испанский (Аргентина)</td><td>西班牙语 （阿根廷）</td></tr><tr><td>es-ES</td><td>Spansk (Spanien)</td><td>Spansk (Spanien)</td><td>Spanisch (Spanien)</td><td>Spanish (Spain)</td><td>Spaans (Spanje)</td><td></td><td>Испанский (Испания)</td><td>西班牙语 （西班牙）</td></tr><tr><td>es-UY</td><td>Spansk (Uruguay)</td><td>Spansk (Uruguay)</td><td>Spanisch (Uruguay)</td><td>Spanish (Uruguay)</td><td>Spaans (Uruguay)</td><td></td><td>Испанский (Уругвай)</td><td>西班牙语 （乌拉圭）</td></tr><tr><td>et</td><td>Estonian</td><td></td><td></td><td>Estonian</td><td></td><td></td><td></td><td></td></tr><tr><td>et-EE</td><td>Estonian (Estonia)</td><td></td><td></td><td>Estonian (Estonia)</td><td></td><td></td><td></td><td></td></tr><tr><td>fi</td><td>Finsk</td><td>Finsk</td><td>Finnisch</td><td>Finnish</td><td>Fins</td><td></td><td>Финский</td><td>芬兰语</td></tr><tr><td>fr</td><td>Fransk</td><td>Fransk</td><td>Französisch</td><td>French</td><td>Frans</td><td></td><td>Французский</td><td>法语</td></tr><tr><td>fr-BE</td><td>法语 （比利时）</td><td>Finsk (Belgien)</td><td>Französisch (Belgien)</td><td>French (Belgium)</td><td>Frans (België)</td><td></td><td></td><td>法语 （比利时）</td></tr><tr><td>fr-CH</td><td>Fransk (Schweiz)</td><td>Fransk (Schweiz)</td><td>Französisch (Schweiz)</td><td>French (Switzerland)</td><td>Frans (Zwitserland)</td><td></td><td>Французский (Швейцария)</td><td>法语 （瑞士）</td></tr><tr><td>fr-FR</td><td>Fransk (Frankrig)</td><td>Fransk (Frankrig)</td><td>Französisch (Frankreich)</td><td>French (France)</td><td>Frans (Frankrijk)</td><td></td><td>Французский (Франция)</td><td>法语 （法国）</td></tr><tr><td>fi-FI</td><td>Finnish (Finland)</td><td></td><td></td><td>Finnish (Finland)</td><td></td><td></td><td></td><td></td></tr><tr><td>fr-CA</td><td>Fransk (Canada)</td><td>Fransk (Canada)</td><td>Französisch (Kanada)</td><td>French (Canada)</td><td>Frans (Frankrijk)</td><td></td><td>Французский (Канада)</td><td>法语 （加拿大）</td></tr><tr><td>fy</td><td>Frisisk</td><td>Frisisk</td><td>Friesisch</td><td>Frisian</td><td>Fries</td><td></td><td></td><td>弗里士兰语</td></tr><tr><td>fy-NL</td><td>Frisisk (Holland)</td><td>Frisisk (Holland)</td><td>Friesisch (Niederlande)</td><td>Frisian (Netherlands)</td><td>Fries (Nederland)</td><td></td><td></td><td>弗里士兰语（荷兰）</td></tr><tr><td>hi</td><td>印地语</td><td>Hindi</td><td></td><td>Hindi</td><td>Hindi</td><td></td><td></td><td>印地语</td></tr><tr><td>hr</td><td>Kroatisk</td><td>Kroatisk</td><td>Kroatisch</td><td>Croatian</td><td>Kroatisch</td><td></td><td>Хорватский</td><td>克罗地亚语</td></tr><tr><td>hr-HR</td><td>Croatian (Croatia)</td><td></td><td></td><td>Croatian (Croatia)</td><td></td><td></td><td></td><td></td></tr><tr><td>is</td><td>Icelandic</td><td></td><td></td><td>Icelandic</td><td></td><td></td><td></td><td></td></tr><tr><td>is-IS</td><td>Icelandic (Iceland)</td><td></td><td></td><td>Icelandic (Iceland)</td><td></td><td></td><td></td><td></td></tr><tr><td>it</td><td>Italiensk</td><td>Italiensk</td><td>Italienisch</td><td>Italian</td><td>Italiaans</td><td></td><td>Итальянский</td><td>意大利语</td></tr><tr><td>it-CH</td><td>Italiensk (Schweiz)</td><td>Italiensk (Schweiz)</td><td>Italienisch (Schweiz)</td><td>Italian (Switzerland)</td><td>Italiaans (Zwitserland)</td><td></td><td>Итальянский (Швейцария)</td><td>意大利语 （瑞士）</td></tr><tr><td>it-IT</td><td>Italiensk (Italien)</td><td>Italiensk (Italien)</td><td>Italienisch (Italien)</td><td>Italian (Italy)</td><td>Italiaans (Italië)</td><td></td><td>Итальянский (Италия)</td><td>意大利语 （意大利）</td></tr><tr><td>ja</td><td>Japansk</td><td>Japansk</td><td>Japanisch</td><td>Japanese</td><td>Japans</td><td></td><td>Японский</td><td>日语</td></tr><tr><td>ko</td><td>Koreansk</td><td>Koreansk</td><td>Koreanisch</td><td>Korean</td><td>Koreaans</td><td></td><td>Корейский</td><td>朝鲜语</td></tr><tr><td>lt</td><td>Lithuanian</td><td></td><td></td><td>Lithuanian</td><td></td><td></td><td></td><td></td></tr><tr><td>lt-LT</td><td>Lithuanian (Lithuania)</td><td></td><td></td><td>Lithuanian (Lithuania)</td><td></td><td></td><td></td><td></td></tr><tr><td>lv</td><td>Latvian</td><td></td><td></td><td>Latvian</td><td></td><td></td><td></td><td></td></tr><tr><td>lv-LV</td><td>Latvian (Latvia)</td><td></td><td></td><td>Latvian (Latvia)</td><td></td><td></td><td></td><td></td></tr><tr><td>nl</td><td>Hollandsk</td><td>Hollandsk</td><td>Niederländisch</td><td>Dutch</td><td>Nederlands</td><td></td><td>Нидерландский</td><td>荷兰语</td></tr><tr><td>nl-BE</td><td>Hollandsk (Belgien)</td><td>Hollandsk (Belgien)</td><td>Niederländisch (Belgien)</td><td>Dutch (Belgium)</td><td>Nederlands (België)</td><td></td><td></td><td>荷兰语 （比利时）</td></tr><tr><td>nl-NL</td><td>Hollandsk (Holland)</td><td>Hollandsk (Holland)</td><td>Niederländisch (Niederlande)</td><td>Dutch (Netherlands)</td><td>Nederlands (Nederland)</td><td></td><td>Нидерландский (Нидерланды)</td><td>荷兰语 （荷兰）</td></tr><tr><td>no</td><td>Norsk</td><td>Norsk</td><td>Norwegisch</td><td>Norwegian</td><td>Noors</td><td></td><td>Норвежский</td><td>挪威语</td></tr><tr><td>no-NO</td><td>Norsk (Norge)</td><td>Norsk (Norge)</td><td>Norwegisch (Norwegen)</td><td>Norwegian (Norway)</td><td>Noors (Noorwegen)</td><td></td><td>Норвежский (Норвегия)</td><td>挪威语 （挪威）</td></tr><tr><td>pa</td><td>旁遮普语</td><td>Punjabi</td><td></td><td>Punjabi</td><td>Punjabi</td><td></td><td></td><td>旁遮普语</td></tr><tr><td>pl</td><td>波兰语</td><td></td><td></td><td></td><td></td><td>Polskie</td><td></td><td>波兰语</td></tr><tr><td>pl-PL</td><td>Polish (Poland)</td><td></td><td></td><td>Polish (Poland)</td><td></td><td></td><td></td><td></td></tr><tr><td>pt</td><td>Portugisisk</td><td>Portugisisk</td><td>Portugiesisch</td><td>Portuguese</td><td>Portugees</td><td></td><td>Португальский</td><td>葡萄牙语</td></tr><tr><td>pt-PT</td><td>Portuguese (Portugal)</td><td></td><td></td><td>Portuguese (Portugal)</td><td></td><td></td><td></td><td></td></tr><tr><td>pt-BR</td><td>Portugisisk (Brasilien)</td><td>Portugisisk (Brasilien)</td><td>Portugiesisch (Brasilien)</td><td>Portuguese (Brazil)</td><td>Portugees (Brazilië)</td><td></td><td>Португальский (Бразилия)</td><td>葡萄牙语 （巴西）</td></tr><tr><td>ro</td><td>Romanian</td><td></td><td></td><td>Romanian</td><td></td><td></td><td></td><td></td></tr><tr><td>ro-RO</td><td>Romanian (Romania)</td><td></td><td></td><td>Romanian (Romania)</td><td></td><td></td><td></td><td></td></tr><tr><td>ru</td><td>Russisk</td><td>Russisk</td><td>Russisch</td><td>Russian</td><td>Russisch</td><td></td><td>Русский</td><td>俄语</td></tr><tr><td>ru-RU</td><td>Russisk (Rusland)</td><td>Russisk (Rusland)</td><td>Russisch (Russland)</td><td>Russian (Russia)</td><td>Russisch (Rusland)</td><td></td><td>Русский (Россия)</td><td>俄语 （俄罗斯）</td></tr><tr><td>sk</td><td>Slovakian</td><td></td><td></td><td>Slovakian</td><td></td><td></td><td></td><td></td></tr><tr><td>sk-SK</td><td>Slovakian (Slovakia)</td><td></td><td></td><td>Slovakian (Slovakia)</td><td></td><td></td><td></td><td></td></tr><tr><td>sl</td><td>Slovenian</td><td></td><td></td><td>Slovenian</td><td></td><td></td><td></td><td></td></tr><tr><td>sl-SI</td><td>Slovenian (Slovenia)</td><td></td><td></td><td>Slovenian (Slovenia)</td><td></td><td></td><td></td><td></td></tr><tr><td>sr</td><td>Serbisk</td><td>Serbisk</td><td>Serbisch</td><td>Serbian</td><td>Servisch</td><td></td><td>Сербский</td><td>塞尔维亚语</td></tr><tr><td>sr-RS</td><td>Serbisk (Serbien)</td><td>Serbisk (Serbien)</td><td>Serbisch (Serbien)</td><td>Serbian (Serbia)</td><td>Servisch (Servië)</td><td></td><td>Сербский (Сербия)</td><td>塞尔维亚语 （塞尔维亚）</td></tr><tr><td>sv</td><td>Svensk</td><td>Svensk</td><td>Schwedisch</td><td>Swedish</td><td>Zweeds</td><td></td><td>Шведский</td><td>瑞典语</td></tr><tr><td>sv-SE</td><td>Svensk (Sverige)</td><td>Svensk (Sverige)</td><td>Schwedisch (Schweden)</td><td>Swedish (Sweden)</td><td>Zweeds (Zweden)</td><td></td><td>Шведский (Швеция)</td><td>瑞典语 （瑞典）</td></tr><tr><td>te</td><td>Telugu</td><td>Telugu</td><td>Telugu</td><td>Telugu</td><td>Teloegoe</td><td></td><td>Телугу</td><td>泰卢固语</td></tr><tr><td>zh</td><td>Kinesisk</td><td>Kinesisk</td><td>Chinesisch</td><td>Chinese</td><td>Chinees</td><td></td><td>Kитайский</td><td>中文</td></tr><tr><td>zh-CN</td><td>Kinesisk (Kina)</td><td>Kinesisk (Kina)</td><td>Chinesisch (China)</td><td>Chinese (China)</td><td>Chinees (China)</td><td></td><td>Kитайский (Китай)</td><td>中文 （中国）</td></tr><tr><td>zh-HK</td><td>Kinesisk (Hong Kong)</td><td>Kinesisk (Hong Kong)</td><td>Chinesisch (Hong Kong)</td><td>Chinese (Hong Kong)</td><td>Chinees (Hong Kong)</td><td></td><td>Kитайский (Гонконг)</td><td>中文 （香港特别行政区）</td></tr><tr><td>zh-SG</td><td>Kinesisk (Singapore)</td><td>Kinesisk (Singapore)</td><td>Chinesisch (Singapur)</td><td>Chinese (Singapore)</td><td>Chinees (Singapore)</td><td></td><td>Kитайский (Сингапур)</td><td>中文 （新加坡）</td></tr><tr><td>zh-TW</td><td>Kinesisk (Taiwan)</td><td>Kinesisk (Taiwan)</td><td>Chinesisch (Taiwan)</td><td>Chinese (Taiwan)</td><td>Chinees (Taiwan)</td><td></td><td>Kитайский (Тайвань)</td><td>中文 （台湾）</td></tr></table></div>"
+  },
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/languages"
+  } ],
+  "url" : "http://hl7.org/fhir/ValueSet/languages",
+  "identifier" : [ {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.20"
+  }, {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.891"
+  } ],
+  "version" : "5.0.0",
+  "name" : "CommonLanguages",
+  "title" : "Obecné jazyky",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Common Languages"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T17:07:19.953441Z",
+  "publisher" : "HL7 International - FHIR-Infrastructure",
+  "contact" : [ {
+    "telecom" : [ {
+      "system" : "url",
+      "value" : "http://hl7.org/fhir"
+    } ]
+  } ],
+  "description" : "Číselník kódů běžných jazyků dle BCP-47 (viz http://tools.ietf.org/html/bcp47)",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2025-04-08T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "concept" : [ {
+        "code" : "ar",
+        "display" : "arabština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Arabisk"
+        }, {
+          "language" : "en",
+          "value" : "Arabic"
+        }, {
+          "language" : "nl",
+          "value" : "Arabisch"
+        }, {
+          "language" : "zh",
+          "value" : "阿拉伯语"
+        }, {
+          "language" : "cs",
+          "value" : "arabština"
+        } ]
+      }, {
+        "code" : "bg",
+        "display" : "bulharština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Bulgarian"
+        }, {
+          "language" : "cs",
+          "value" : "bulharština"
+        } ]
+      }, {
+        "code" : "bg-BG",
+        "display" : "bulharština (Bulharsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Bulgarian (Bulgaria)"
+        }, {
+          "language" : "cs",
+          "value" : "bulharština (Bulharsko)"
+        } ]
+      }, {
+        "code" : "bn",
+        "display" : "bengálština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Bengalsk"
+        }, {
+          "language" : "en",
+          "value" : "Bengali"
+        }, {
+          "language" : "nl",
+          "value" : "Bengaals"
+        }, {
+          "language" : "zh",
+          "value" : "孟加拉语"
+        }, {
+          "language" : "cs",
+          "value" : "bengálština"
+        }, {
+          "language" : "ru",
+          "value" : "Бенгальский"
+        }, {
+          "language" : "de",
+          "value" : "Bengalisch"
+        } ]
+      }, {
+        "code" : "cs",
+        "display" : "čeština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Tjekkisk"
+        }, {
+          "language" : "en",
+          "value" : "Czech"
+        }, {
+          "language" : "nl",
+          "value" : "Tsjechisch"
+        }, {
+          "language" : "zh",
+          "value" : "捷克语"
+        }, {
+          "language" : "cs",
+          "value" : "čeština"
+        }, {
+          "language" : "ru",
+          "value" : "Чешский"
+        }, {
+          "language" : "de",
+          "value" : "Tschechisch"
+        } ]
+      }, {
+        "code" : "cs-CZ",
+        "display" : "čeština (Česko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Czech (Czechia)"
+        }, {
+          "language" : "cs",
+          "value" : "čeština (Česko)"
+        } ]
+      }, {
+        "code" : "bs",
+        "display" : "bosenština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Bosnian"
+        }, {
+          "language" : "cs",
+          "value" : "bosenština"
+        } ]
+      }, {
+        "code" : "bs-BA",
+        "display" : "bosenština (Bosna a Hercegovina)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Bosnian (Bosnia and Herzegovina))"
+        }, {
+          "language" : "cs",
+          "value" : "bosenština (Bosna a Hercegovina)"
+        } ]
+      }, {
+        "code" : "da",
+        "display" : "dánština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Dansk"
+        }, {
+          "language" : "en",
+          "value" : "Danish"
+        }, {
+          "language" : "nl",
+          "value" : "Deens"
+        }, {
+          "language" : "zh",
+          "value" : "丹麦语"
+        }, {
+          "language" : "cs",
+          "value" : "dánština"
+        }, {
+          "language" : "ru",
+          "value" : "Датский"
+        }, {
+          "language" : "de",
+          "value" : "Dänisch"
+        } ]
+      }, {
+        "code" : "da-DK",
+        "display" : "dánština (Dánsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Danish (Denmark)"
+        }, {
+          "language" : "cs",
+          "value" : "dánština (Dánsko)"
+        } ]
+      }, {
+        "code" : "de",
+        "display" : "němčina",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Tysk"
+        }, {
+          "language" : "en",
+          "value" : "German"
+        }, {
+          "language" : "nl",
+          "value" : "Duits"
+        }, {
+          "language" : "zh",
+          "value" : "德语"
+        }, {
+          "language" : "cs",
+          "value" : "němčina"
+        }, {
+          "language" : "ru",
+          "value" : "Немецкий"
+        }, {
+          "language" : "de",
+          "value" : "Deutsch"
+        } ]
+      }, {
+        "code" : "de-AT",
+        "display" : "němčina (Rakousko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Tysk (Østrig"
+        }, {
+          "language" : "en",
+          "value" : "German (Austria)"
+        }, {
+          "language" : "nl",
+          "value" : "Duits (Oostenrijk)"
+        }, {
+          "language" : "zh",
+          "value" : "德语 （奥地利）"
+        }, {
+          "language" : "cs",
+          "value" : "němčina (Rakousko)"
+        }, {
+          "language" : "ru",
+          "value" : "Немецкий (Австрия)"
+        }, {
+          "language" : "de",
+          "value" : "Deutsch (Österreich)"
+        } ]
+      }, {
+        "code" : "de-CH",
+        "display" : "němčina (Švýcarsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Tysk (Schweiz)"
+        }, {
+          "language" : "en",
+          "value" : "German (Switzerland)"
+        }, {
+          "language" : "nl",
+          "value" : "Duits (Zwitserland)"
+        }, {
+          "language" : "zh",
+          "value" : "德语 （瑞士）"
+        }, {
+          "language" : "cs",
+          "value" : "němčina (Švýcarsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Немецкий (Швейцария)"
+        }, {
+          "language" : "de",
+          "value" : "Deutsch (Schweiz)"
+        } ]
+      }, {
+        "code" : "de-DE",
+        "display" : "němčina (Německo)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Tysk (Tyskland)"
+        }, {
+          "language" : "en",
+          "value" : "German (Germany)"
+        }, {
+          "language" : "nl",
+          "value" : "Duits (Duitsland)"
+        }, {
+          "language" : "zh",
+          "value" : "德语 （德国）"
+        }, {
+          "language" : "cs",
+          "value" : "němčina (Německo)"
+        }, {
+          "language" : "ru",
+          "value" : "Немецкий (Германия)"
+        }, {
+          "language" : "de",
+          "value" : "Deutsch (Deutschland)"
+        } ]
+      }, {
+        "code" : "el",
+        "display" : "řečtina",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Græsk"
+        }, {
+          "language" : "en",
+          "value" : "Greek"
+        }, {
+          "language" : "nl",
+          "value" : "Grieks"
+        }, {
+          "language" : "zh",
+          "value" : "希腊语"
+        }, {
+          "language" : "cs",
+          "value" : "řečtina"
+        }, {
+          "language" : "ru",
+          "value" : "Греческий"
+        }, {
+          "language" : "de",
+          "value" : "Griechisch"
+        } ]
+      }, {
+        "code" : "el-GR",
+        "display" : "řečtina (Řecko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Greek (Greece)"
+        }, {
+          "language" : "cs",
+          "value" : "řečtina (Řecko)"
+        } ]
+      }, {
+        "code" : "en",
+        "display" : "angličtina",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk"
+        }, {
+          "language" : "en",
+          "value" : "English"
+        }, {
+          "language" : "nl",
+          "value" : "Engels"
+        }, {
+          "language" : "zh",
+          "value" : "英语"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina"
+        }, {
+          "language" : "ru",
+          "value" : "Английский"
+        }, {
+          "language" : "de",
+          "value" : "Englisch"
+        } ]
+      }, {
+        "code" : "en-AU",
+        "display" : "angličtina (Austrálie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Australien)"
+        }, {
+          "language" : "en",
+          "value" : "English (Australia)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Australië)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （澳大利亚）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Austrálie)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Австралия)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Australien)"
+        } ]
+      }, {
+        "code" : "en-CA",
+        "display" : "angličtina (Kanada)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Canada)"
+        }, {
+          "language" : "en",
+          "value" : "English (Canada)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Canada)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （加拿大）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Kanada)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Канада)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Kanada)"
+        } ]
+      }, {
+        "code" : "en-GB",
+        "display" : "angličtina (Velká Británie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Storbritannien)"
+        }, {
+          "language" : "en",
+          "value" : "English (Great Britain)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Groot Brittannië)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （英国）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Velká Británie)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Великобритания)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Großbritannien)"
+        } ]
+      }, {
+        "code" : "en-IN",
+        "display" : "angličtina (Indie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Indien)"
+        }, {
+          "language" : "en",
+          "value" : "English (India)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (India)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （印度）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Indie)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Индия)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Indien)"
+        } ]
+      }, {
+        "code" : "en-NZ",
+        "display" : "angličtina (Nový Zéland)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (New Zeeland)"
+        }, {
+          "language" : "en",
+          "value" : "English (New Zealand)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Nieuw Zeeland)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （新西兰）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Nový Zéland)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Новая Зеландия)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Neuseeland)"
+        } ]
+      }, {
+        "code" : "en-SG",
+        "display" : "angličtina (Singapur)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Singapore)"
+        }, {
+          "language" : "en",
+          "value" : "English (Singapore)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Singapore)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （新加坡）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Singapur)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (Сингапур)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (Singapur)"
+        } ]
+      }, {
+        "code" : "en-US",
+        "display" : "angličtina (Spojené státy)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Engelsk (Amerikansk)"
+        }, {
+          "language" : "en",
+          "value" : "English (United States)"
+        }, {
+          "language" : "nl",
+          "value" : "Engels (Verenigde Staten)"
+        }, {
+          "language" : "zh",
+          "value" : "英语 （美国）"
+        }, {
+          "language" : "cs",
+          "value" : "angličtina (Spojené státy)"
+        }, {
+          "language" : "ru",
+          "value" : "Английский (США)"
+        }, {
+          "language" : "de",
+          "value" : "Englisch (USA)"
+        } ]
+      }, {
+        "code" : "es",
+        "display" : "španělština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Spansk"
+        }, {
+          "language" : "en",
+          "value" : "Spanish"
+        }, {
+          "language" : "nl",
+          "value" : "Spaans"
+        }, {
+          "language" : "zh",
+          "value" : "西班牙语"
+        }, {
+          "language" : "cs",
+          "value" : "španělština"
+        }, {
+          "language" : "ru",
+          "value" : "Испанский"
+        }, {
+          "language" : "de",
+          "value" : "Spanisch"
+        } ]
+      }, {
+        "code" : "es-AR",
+        "display" : "španělština, kastilština (Argentina)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Spansk (Argentina)"
+        }, {
+          "language" : "en",
+          "value" : "Spanish (Argentina)"
+        }, {
+          "language" : "nl",
+          "value" : "Spaans (Argentinië)"
+        }, {
+          "language" : "zh",
+          "value" : "西班牙语 （阿根廷）"
+        }, {
+          "language" : "cs",
+          "value" : "španělština, kastilština (Argentina)"
+        }, {
+          "language" : "ru",
+          "value" : "Испанский (Аргентина)"
+        }, {
+          "language" : "de",
+          "value" : "Spanisch (Argentinien)"
+        } ]
+      }, {
+        "code" : "es-ES",
+        "display" : "španělština, kastilština (Španělsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Spansk (Spanien)"
+        }, {
+          "language" : "en",
+          "value" : "Spanish (Spain)"
+        }, {
+          "language" : "nl",
+          "value" : "Spaans (Spanje)"
+        }, {
+          "language" : "zh",
+          "value" : "西班牙语 （西班牙）"
+        }, {
+          "language" : "cs",
+          "value" : "španělština, kastilština (Španělsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Испанский (Испания)"
+        }, {
+          "language" : "de",
+          "value" : "Spanisch (Spanien)"
+        } ]
+      }, {
+        "code" : "es-UY",
+        "display" : "španělština, kastilština (Uruguay)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Spansk (Uruguay)"
+        }, {
+          "language" : "en",
+          "value" : "Spanish (Uruguay)"
+        }, {
+          "language" : "nl",
+          "value" : "Spaans (Uruguay)"
+        }, {
+          "language" : "zh",
+          "value" : "西班牙语 （乌拉圭）"
+        }, {
+          "language" : "cs",
+          "value" : "španělština, kastilština (Uruguay)"
+        }, {
+          "language" : "ru",
+          "value" : "Испанский (Уругвай)"
+        }, {
+          "language" : "de",
+          "value" : "Spanisch (Uruguay)"
+        } ]
+      }, {
+        "code" : "et",
+        "display" : "estonština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Estonian"
+        }, {
+          "language" : "cs",
+          "value" : "estonština"
+        } ]
+      }, {
+        "code" : "et-EE",
+        "display" : "estonština (Estonsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Estonian (Estonia)"
+        }, {
+          "language" : "cs",
+          "value" : "estonština (Estonsko)"
+        } ]
+      }, {
+        "code" : "fi",
+        "display" : "finština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Finsk"
+        }, {
+          "language" : "en",
+          "value" : "Finnish"
+        }, {
+          "language" : "nl",
+          "value" : "Fins"
+        }, {
+          "language" : "zh",
+          "value" : "芬兰语"
+        }, {
+          "language" : "cs",
+          "value" : "finština"
+        }, {
+          "language" : "ru",
+          "value" : "Финский"
+        }, {
+          "language" : "de",
+          "value" : "Finnisch"
+        } ]
+      }, {
+        "code" : "fr",
+        "display" : "francouzština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Fransk"
+        }, {
+          "language" : "en",
+          "value" : "French"
+        }, {
+          "language" : "nl",
+          "value" : "Frans"
+        }, {
+          "language" : "zh",
+          "value" : "法语"
+        }, {
+          "language" : "cs",
+          "value" : "francouzština"
+        }, {
+          "language" : "ru",
+          "value" : "Французский"
+        }, {
+          "language" : "de",
+          "value" : "Französisch"
+        } ]
+      }, {
+        "code" : "fr-BE",
+        "display" : "francouzština (Belgie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Finsk (Belgien)"
+        }, {
+          "language" : "en",
+          "value" : "French (Belgium)"
+        }, {
+          "language" : "nl",
+          "value" : "Frans (België)"
+        }, {
+          "language" : "zh",
+          "value" : "法语 （比利时）"
+        }, {
+          "language" : "cs",
+          "value" : "francouzština (Belgie)"
+        }, {
+          "language" : "de",
+          "value" : "Französisch (Belgien)"
+        } ]
+      }, {
+        "code" : "fr-CH",
+        "display" : "francouzština (Švýcarsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Fransk (Schweiz)"
+        }, {
+          "language" : "en",
+          "value" : "French (Switzerland)"
+        }, {
+          "language" : "nl",
+          "value" : "Frans (Zwitserland)"
+        }, {
+          "language" : "zh",
+          "value" : "法语 （瑞士）"
+        }, {
+          "language" : "cs",
+          "value" : "francouzština (Švýcarsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Французский (Швейцария)"
+        }, {
+          "language" : "de",
+          "value" : "Französisch (Schweiz)"
+        } ]
+      }, {
+        "code" : "fr-FR",
+        "display" : "francouzština (Francie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Fransk (Frankrig)"
+        }, {
+          "language" : "en",
+          "value" : "French (France)"
+        }, {
+          "language" : "nl",
+          "value" : "Frans (Frankrijk)"
+        }, {
+          "language" : "zh",
+          "value" : "法语 （法国）"
+        }, {
+          "language" : "cs",
+          "value" : "francouzština (Francie)"
+        }, {
+          "language" : "ru",
+          "value" : "Французский (Франция)"
+        }, {
+          "language" : "de",
+          "value" : "Französisch (Frankreich)"
+        } ]
+      }, {
+        "code" : "fi-FI",
+        "display" : "finština (Finsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Finnish (Finland)"
+        }, {
+          "language" : "cs",
+          "value" : "finština (Finsko)"
+        } ]
+      }, {
+        "code" : "fr-CA",
+        "display" : "francouzština (Kanada)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Fransk (Canada)"
+        }, {
+          "language" : "en",
+          "value" : "French (Canada)"
+        }, {
+          "language" : "nl",
+          "value" : "Frans (Frankrijk)"
+        }, {
+          "language" : "zh",
+          "value" : "法语 （加拿大）"
+        }, {
+          "language" : "cs",
+          "value" : "francouzština (Kanada)"
+        }, {
+          "language" : "ru",
+          "value" : "Французский (Канада)"
+        }, {
+          "language" : "de",
+          "value" : "Französisch (Kanada)"
+        } ]
+      }, {
+        "code" : "fy",
+        "display" : "fríština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Frisisk"
+        }, {
+          "language" : "en",
+          "value" : "Frisian"
+        }, {
+          "language" : "nl",
+          "value" : "Fries"
+        }, {
+          "language" : "zh",
+          "value" : "弗里士兰语"
+        }, {
+          "language" : "cs",
+          "value" : "fríština"
+        }, {
+          "language" : "de",
+          "value" : "Friesisch"
+        } ]
+      }, {
+        "code" : "fy-NL",
+        "display" : "fríština (Nizozemsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Frisisk (Holland)"
+        }, {
+          "language" : "en",
+          "value" : "Frisian (Netherlands)"
+        }, {
+          "language" : "nl",
+          "value" : "Fries (Nederland)"
+        }, {
+          "language" : "zh",
+          "value" : "弗里士兰语（荷兰）"
+        }, {
+          "language" : "cs",
+          "value" : "fríština (Nizozemsko)"
+        }, {
+          "language" : "de",
+          "value" : "Friesisch (Niederlande)"
+        } ]
+      }, {
+        "code" : "hi",
+        "display" : "hindština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Hindi"
+        }, {
+          "language" : "en",
+          "value" : "Hindi"
+        }, {
+          "language" : "nl",
+          "value" : "Hindi"
+        }, {
+          "language" : "zh",
+          "value" : "印地语"
+        }, {
+          "language" : "cs",
+          "value" : "hindština"
+        } ]
+      }, {
+        "code" : "hr",
+        "display" : "chorvatština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kroatisk"
+        }, {
+          "language" : "en",
+          "value" : "Croatian"
+        }, {
+          "language" : "nl",
+          "value" : "Kroatisch"
+        }, {
+          "language" : "zh",
+          "value" : "克罗地亚语"
+        }, {
+          "language" : "cs",
+          "value" : "chorvatština"
+        }, {
+          "language" : "ru",
+          "value" : "Хорватский"
+        }, {
+          "language" : "de",
+          "value" : "Kroatisch"
+        } ]
+      }, {
+        "code" : "hr-HR",
+        "display" : "chorvatština (Chorvatsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Croatian (Croatia)"
+        }, {
+          "language" : "cs",
+          "value" : "chorvatština (Chorvatsko)"
+        } ]
+      }, {
+        "code" : "is",
+        "display" : "islandština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Icelandic"
+        }, {
+          "language" : "cs",
+          "value" : "islandština"
+        } ]
+      }, {
+        "code" : "is-IS",
+        "display" : "islandština (Island)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Icelandic (Iceland)"
+        }, {
+          "language" : "cs",
+          "value" : "islandština (Island)"
+        } ]
+      }, {
+        "code" : "it",
+        "display" : "italština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Italiensk"
+        }, {
+          "language" : "en",
+          "value" : "Italian"
+        }, {
+          "language" : "nl",
+          "value" : "Italiaans"
+        }, {
+          "language" : "zh",
+          "value" : "意大利语"
+        }, {
+          "language" : "cs",
+          "value" : "italština"
+        }, {
+          "language" : "ru",
+          "value" : "Итальянский"
+        }, {
+          "language" : "de",
+          "value" : "Italienisch"
+        } ]
+      }, {
+        "code" : "it-CH",
+        "display" : "italština (Švýcarsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Italiensk (Schweiz)"
+        }, {
+          "language" : "en",
+          "value" : "Italian (Switzerland)"
+        }, {
+          "language" : "nl",
+          "value" : "Italiaans (Zwitserland)"
+        }, {
+          "language" : "zh",
+          "value" : "意大利语 （瑞士）"
+        }, {
+          "language" : "cs",
+          "value" : "italština (Švýcarsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Итальянский (Швейцария)"
+        }, {
+          "language" : "de",
+          "value" : "Italienisch (Schweiz)"
+        } ]
+      }, {
+        "code" : "it-IT",
+        "display" : "italština (Itálie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Italiensk (Italien)"
+        }, {
+          "language" : "en",
+          "value" : "Italian (Italy)"
+        }, {
+          "language" : "nl",
+          "value" : "Italiaans (Italië)"
+        }, {
+          "language" : "zh",
+          "value" : "意大利语 （意大利）"
+        }, {
+          "language" : "cs",
+          "value" : "italština (Itálie)"
+        }, {
+          "language" : "ru",
+          "value" : "Итальянский (Италия)"
+        }, {
+          "language" : "de",
+          "value" : "Italienisch (Italien)"
+        } ]
+      }, {
+        "code" : "ja",
+        "display" : "japonština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Japansk"
+        }, {
+          "language" : "en",
+          "value" : "Japanese"
+        }, {
+          "language" : "nl",
+          "value" : "Japans"
+        }, {
+          "language" : "zh",
+          "value" : "日语"
+        }, {
+          "language" : "cs",
+          "value" : "japonština"
+        }, {
+          "language" : "ru",
+          "value" : "Японский"
+        }, {
+          "language" : "de",
+          "value" : "Japanisch"
+        } ]
+      }, {
+        "code" : "ko",
+        "display" : "korejština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Koreansk"
+        }, {
+          "language" : "en",
+          "value" : "Korean"
+        }, {
+          "language" : "nl",
+          "value" : "Koreaans"
+        }, {
+          "language" : "zh",
+          "value" : "朝鲜语"
+        }, {
+          "language" : "cs",
+          "value" : "korejština"
+        }, {
+          "language" : "ru",
+          "value" : "Корейский"
+        }, {
+          "language" : "de",
+          "value" : "Koreanisch"
+        } ]
+      }, {
+        "code" : "lt",
+        "display" : "litevština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Lithuanian"
+        }, {
+          "language" : "cs",
+          "value" : "litevština"
+        } ]
+      }, {
+        "code" : "lt-LT",
+        "display" : "litevština (Litva)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Lithuanian (Lithuania)"
+        }, {
+          "language" : "cs",
+          "value" : "litevština (Litva)"
+        } ]
+      }, {
+        "code" : "lv",
+        "display" : "lotyština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Latvian"
+        }, {
+          "language" : "cs",
+          "value" : "lotyština"
+        } ]
+      }, {
+        "code" : "lv-LV",
+        "display" : "lotyština (Lotyšsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Latvian (Latvia)"
+        }, {
+          "language" : "cs",
+          "value" : "lotyština (Lotyšsko)"
+        } ]
+      }, {
+        "code" : "nl",
+        "display" : "nizozemština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Hollandsk"
+        }, {
+          "language" : "en",
+          "value" : "Dutch"
+        }, {
+          "language" : "nl",
+          "value" : "Nederlands"
+        }, {
+          "language" : "zh",
+          "value" : "荷兰语"
+        }, {
+          "language" : "cs",
+          "value" : "nizozemština"
+        }, {
+          "language" : "ru",
+          "value" : "Нидерландский"
+        }, {
+          "language" : "de",
+          "value" : "Niederländisch"
+        } ]
+      }, {
+        "code" : "nl-BE",
+        "display" : "nizozemština (Belgie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Hollandsk (Belgien)"
+        }, {
+          "language" : "en",
+          "value" : "Dutch (Belgium)"
+        }, {
+          "language" : "nl",
+          "value" : "Nederlands (België)"
+        }, {
+          "language" : "zh",
+          "value" : "荷兰语 （比利时）"
+        }, {
+          "language" : "cs",
+          "value" : "nizozemština (Belgie)"
+        }, {
+          "language" : "de",
+          "value" : "Niederländisch (Belgien)"
+        } ]
+      }, {
+        "code" : "nl-NL",
+        "display" : "nizozemština (Nizozemsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Hollandsk (Holland)"
+        }, {
+          "language" : "en",
+          "value" : "Dutch (Netherlands)"
+        }, {
+          "language" : "nl",
+          "value" : "Nederlands (Nederland)"
+        }, {
+          "language" : "zh",
+          "value" : "荷兰语 （荷兰）"
+        }, {
+          "language" : "cs",
+          "value" : "nizozemština (Nizozemsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Нидерландский (Нидерланды)"
+        }, {
+          "language" : "de",
+          "value" : "Niederländisch (Niederlande)"
+        } ]
+      }, {
+        "code" : "no",
+        "display" : "norština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Norsk"
+        }, {
+          "language" : "en",
+          "value" : "Norwegian"
+        }, {
+          "language" : "nl",
+          "value" : "Noors"
+        }, {
+          "language" : "zh",
+          "value" : "挪威语"
+        }, {
+          "language" : "cs",
+          "value" : "norština"
+        }, {
+          "language" : "ru",
+          "value" : "Норвежский"
+        }, {
+          "language" : "de",
+          "value" : "Norwegisch"
+        } ]
+      }, {
+        "code" : "no-NO",
+        "display" : "norština (Norsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Norsk (Norge)"
+        }, {
+          "language" : "en",
+          "value" : "Norwegian (Norway)"
+        }, {
+          "language" : "nl",
+          "value" : "Noors (Noorwegen)"
+        }, {
+          "language" : "zh",
+          "value" : "挪威语 （挪威）"
+        }, {
+          "language" : "cs",
+          "value" : "norština (Norsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Норвежский (Норвегия)"
+        }, {
+          "language" : "de",
+          "value" : "Norwegisch (Norwegen)"
+        } ]
+      }, {
+        "code" : "pa",
+        "display" : "paňdžábština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Punjabi"
+        }, {
+          "language" : "en",
+          "value" : "Punjabi"
+        }, {
+          "language" : "nl",
+          "value" : "Punjabi"
+        }, {
+          "language" : "zh",
+          "value" : "旁遮普语"
+        }, {
+          "language" : "cs",
+          "value" : "paňdžábština"
+        } ]
+      }, {
+        "code" : "pl",
+        "display" : "polština",
+        "designation" : [ {
+          "language" : "zh",
+          "value" : "波兰语"
+        }, {
+          "language" : "cs",
+          "value" : "polština"
+        }, {
+          "language" : "pl",
+          "value" : "Polskie"
+        } ]
+      }, {
+        "code" : "pl-PL",
+        "display" : "polština (Polsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Polish (Poland)"
+        }, {
+          "language" : "cs",
+          "value" : "polština (Polsko)"
+        } ]
+      }, {
+        "code" : "pt",
+        "display" : "portugalština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Portugisisk"
+        }, {
+          "language" : "en",
+          "value" : "Portuguese"
+        }, {
+          "language" : "nl",
+          "value" : "Portugees"
+        }, {
+          "language" : "zh",
+          "value" : "葡萄牙语"
+        }, {
+          "language" : "cs",
+          "value" : "portugalština"
+        }, {
+          "language" : "ru",
+          "value" : "Португальский"
+        }, {
+          "language" : "de",
+          "value" : "Portugiesisch"
+        } ]
+      }, {
+        "code" : "pt-PT",
+        "display" : "portugalština (Portugalsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Portuguese (Portugal)"
+        }, {
+          "language" : "cs",
+          "value" : "portugalština (Portugalsko)"
+        } ]
+      }, {
+        "code" : "pt-BR",
+        "display" : "portugalština (Brazílie)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Portugisisk (Brasilien)"
+        }, {
+          "language" : "en",
+          "value" : "Portuguese (Brazil)"
+        }, {
+          "language" : "nl",
+          "value" : "Portugees (Brazilië)"
+        }, {
+          "language" : "zh",
+          "value" : "葡萄牙语 （巴西）"
+        }, {
+          "language" : "cs",
+          "value" : "portugalština (Brazílie)"
+        }, {
+          "language" : "ru",
+          "value" : "Португальский (Бразилия)"
+        }, {
+          "language" : "de",
+          "value" : "Portugiesisch (Brasilien)"
+        } ]
+      }, {
+        "code" : "ro",
+        "display" : "rumunština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Romanian"
+        }, {
+          "language" : "cs",
+          "value" : "rumunština"
+        } ]
+      }, {
+        "code" : "ro-RO",
+        "display" : "rumunština (Rumunsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Romanian (Romania)"
+        }, {
+          "language" : "cs",
+          "value" : "rumunština (Rumunsko)"
+        } ]
+      }, {
+        "code" : "ru",
+        "display" : "ruština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Russisk"
+        }, {
+          "language" : "en",
+          "value" : "Russian"
+        }, {
+          "language" : "nl",
+          "value" : "Russisch"
+        }, {
+          "language" : "zh",
+          "value" : "俄语"
+        }, {
+          "language" : "cs",
+          "value" : "ruština"
+        }, {
+          "language" : "ru",
+          "value" : "Русский"
+        }, {
+          "language" : "de",
+          "value" : "Russisch"
+        } ]
+      }, {
+        "code" : "ru-RU",
+        "display" : "ruština (Rusko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Russisk (Rusland)"
+        }, {
+          "language" : "en",
+          "value" : "Russian (Russia)"
+        }, {
+          "language" : "nl",
+          "value" : "Russisch (Rusland)"
+        }, {
+          "language" : "zh",
+          "value" : "俄语 （俄罗斯）"
+        }, {
+          "language" : "cs",
+          "value" : "ruština (Rusko)"
+        }, {
+          "language" : "ru",
+          "value" : "Русский (Россия)"
+        }, {
+          "language" : "de",
+          "value" : "Russisch (Russland)"
+        } ]
+      }, {
+        "code" : "sk",
+        "display" : "slovenština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Slovakian"
+        }, {
+          "language" : "cs",
+          "value" : "slovenština"
+        } ]
+      }, {
+        "code" : "sk-SK",
+        "display" : "slovenština (Slovensko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Slovakian (Slovakia)"
+        }, {
+          "language" : "cs",
+          "value" : "slovenština (Slovensko)"
+        } ]
+      }, {
+        "code" : "sl",
+        "display" : "slovinština",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Slovenian"
+        }, {
+          "language" : "cs",
+          "value" : "slovinština"
+        } ]
+      }, {
+        "code" : "sl-SI",
+        "display" : "slovinština (Slovinsko)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Slovenian (Slovenia)"
+        }, {
+          "language" : "cs",
+          "value" : "slovinština (Slovinsko)"
+        } ]
+      }, {
+        "code" : "sr",
+        "display" : "srbština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Serbisk"
+        }, {
+          "language" : "en",
+          "value" : "Serbian"
+        }, {
+          "language" : "nl",
+          "value" : "Servisch"
+        }, {
+          "language" : "zh",
+          "value" : "塞尔维亚语"
+        }, {
+          "language" : "cs",
+          "value" : "srbština"
+        }, {
+          "language" : "ru",
+          "value" : "Сербский"
+        }, {
+          "language" : "de",
+          "value" : "Serbisch"
+        } ]
+      }, {
+        "code" : "sr-RS",
+        "display" : "srbština (Srbsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Serbisk (Serbien)"
+        }, {
+          "language" : "en",
+          "value" : "Serbian (Serbia)"
+        }, {
+          "language" : "nl",
+          "value" : "Servisch (Servië)"
+        }, {
+          "language" : "zh",
+          "value" : "塞尔维亚语 （塞尔维亚）"
+        }, {
+          "language" : "cs",
+          "value" : "srbština (Srbsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Сербский (Сербия)"
+        }, {
+          "language" : "de",
+          "value" : "Serbisch (Serbien)"
+        } ]
+      }, {
+        "code" : "sv",
+        "display" : "švédština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Svensk"
+        }, {
+          "language" : "en",
+          "value" : "Swedish"
+        }, {
+          "language" : "nl",
+          "value" : "Zweeds"
+        }, {
+          "language" : "zh",
+          "value" : "瑞典语"
+        }, {
+          "language" : "cs",
+          "value" : "švédština"
+        }, {
+          "language" : "ru",
+          "value" : "Шведский"
+        }, {
+          "language" : "de",
+          "value" : "Schwedisch"
+        } ]
+      }, {
+        "code" : "sv-SE",
+        "display" : "švédština (Švédsko)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Svensk (Sverige)"
+        }, {
+          "language" : "en",
+          "value" : "Swedish (Sweden)"
+        }, {
+          "language" : "nl",
+          "value" : "Zweeds (Zweden)"
+        }, {
+          "language" : "zh",
+          "value" : "瑞典语 （瑞典）"
+        }, {
+          "language" : "cs",
+          "value" : "švédština (Švédsko)"
+        }, {
+          "language" : "ru",
+          "value" : "Шведский (Швеция)"
+        }, {
+          "language" : "de",
+          "value" : "Schwedisch (Schweden)"
+        } ]
+      }, {
+        "code" : "te",
+        "display" : "telugština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Telugu"
+        }, {
+          "language" : "en",
+          "value" : "Telugu"
+        }, {
+          "language" : "nl",
+          "value" : "Teloegoe"
+        }, {
+          "language" : "zh",
+          "value" : "泰卢固语"
+        }, {
+          "language" : "cs",
+          "value" : "telugština"
+        }, {
+          "language" : "ru",
+          "value" : "Телугу"
+        }, {
+          "language" : "de",
+          "value" : "Telugu"
+        } ]
+      }, {
+        "code" : "uz-CYRL",
+        "display" : "uzbečtina cyrilice",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Uzbek Cyrillic"
+        }, {
+          "language" : "cs",
+          "value" : "uzbečtina cyrilice"
+        }, {
+          "language" : "ru",
+          "value" : "Узбекский кириллица"
+        } ]
+      }, {
+        "code" : "uz-LATN",
+        "display" : "uzbečtina latinka",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "Uzbek Latin"
+        }, {
+          "language" : "cs",
+          "value" : "uzbečtina latinka"
+        }, {
+          "language" : "ru",
+          "value" : "Узбекский латиница"
+        } ]
+      }, {
+        "code" : "zh",
+        "display" : "čínština",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kinesisk"
+        }, {
+          "language" : "en",
+          "value" : "Chinese"
+        }, {
+          "language" : "nl",
+          "value" : "Chinees"
+        }, {
+          "language" : "zh",
+          "value" : "中文"
+        }, {
+          "language" : "cs",
+          "value" : "čínština"
+        }, {
+          "language" : "ru",
+          "value" : "Kитайский"
+        }, {
+          "language" : "de",
+          "value" : "Chinesisch"
+        } ]
+      }, {
+        "code" : "zh-CN",
+        "display" : "čínština (Čína)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kinesisk (Kina)"
+        }, {
+          "language" : "en",
+          "value" : "Chinese (China)"
+        }, {
+          "language" : "nl",
+          "value" : "Chinees (China)"
+        }, {
+          "language" : "zh",
+          "value" : "中文 （中国）"
+        }, {
+          "language" : "cs",
+          "value" : "čínština (Čína)"
+        }, {
+          "language" : "ru",
+          "value" : "Kитайский (Китай)"
+        }, {
+          "language" : "de",
+          "value" : "Chinesisch (China)"
+        } ]
+      }, {
+        "code" : "zh-HK",
+        "display" : "čínština (Hongkong)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kinesisk (Hong Kong)"
+        }, {
+          "language" : "en",
+          "value" : "Chinese (Hong Kong)"
+        }, {
+          "language" : "nl",
+          "value" : "Chinees (Hong Kong)"
+        }, {
+          "language" : "zh",
+          "value" : "中文 （香港特别行政区）"
+        }, {
+          "language" : "cs",
+          "value" : "čínština (Hongkong)"
+        }, {
+          "language" : "ru",
+          "value" : "Kитайский (Гонконг)"
+        }, {
+          "language" : "de",
+          "value" : "Chinesisch (Hong Kong)"
+        } ]
+      }, {
+        "code" : "zh-SG",
+        "display" : "čínština (Singapur)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kinesisk (Singapore)"
+        }, {
+          "language" : "en",
+          "value" : "Chinese (Singapore)"
+        }, {
+          "language" : "nl",
+          "value" : "Chinees (Singapore)"
+        }, {
+          "language" : "zh",
+          "value" : "中文 （新加坡）"
+        }, {
+          "language" : "cs",
+          "value" : "čínština (Singapur)"
+        }, {
+          "language" : "ru",
+          "value" : "Kитайский (Сингапур)"
+        }, {
+          "language" : "de",
+          "value" : "Chinesisch (Singapur)"
+        } ]
+      }, {
+        "code" : "zh-TW",
+        "display" : "čínština (Tchaj-wan)",
+        "designation" : [ {
+          "language" : "da",
+          "value" : "Kinesisk (Taiwan)"
+        }, {
+          "language" : "en",
+          "value" : "Chinese (Taiwan)"
+        }, {
+          "language" : "nl",
+          "value" : "Chinees (Taiwan)"
+        }, {
+          "language" : "zh",
+          "value" : "中文 （台湾）"
+        }, {
+          "language" : "cs",
+          "value" : "čínština (Tchaj-wan)"
+        }, {
+          "language" : "ru",
+          "value" : "Kитайский (Тайвань)"
+        }, {
+          "language" : "de",
+          "value" : "Chinesisch (Taiwan)"
+        } ]
+      } ]
+    } ],
+    "property" : [ "display" ]
+  }
+}

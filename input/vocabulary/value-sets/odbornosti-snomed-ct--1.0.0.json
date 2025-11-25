@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "odbornosti-snomed-ct--1.0.0",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/odbornosti-snomed-ct"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/odbornosti-snomed-ct",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Medical speciality SNOMED CT",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Odbornosti SNOMED CT"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-20T16:34:46.043364Z",
+  "publisher" : "National eHealth Center (NCEZ)",
+  "effectivePeriod" : {
+    "start" : "2025-11-20T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "http://snomed.info/sct",
+      "version" : "international-edition",
+      "filter" : [ {
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "394733009"
+      } ]
+    } ],
+    "property" : [ "display" ]
+  }
+}

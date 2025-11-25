@@ -1,0 +1,67 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "stav-zasilky--1.0.0",
+  "language" : "en",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/stav-zasilky"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/stav-zasilky",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Stav zasilky",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Stav zasilky"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "National eHealth Center (NCEZ)",
+  "effectivePeriod" : {
+    "start" : "2025-08-01T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "0",
+    "display" : "Uložena",
+    "definition" : "Zásilka byla uložena do dočasného uložiště"
+  }, {
+    "code" : "1",
+    "display" : "Stažena",
+    "definition" : "Zásilka byla stažena z dočasného uložiště do lokálního uložiště daného aktéra. Bylo vykonáno vymazání zásilky dle systémových pravidel"
+  }, {
+    "code" : "2",
+    "display" : "Zneplatněna",
+    "definition" : "Označení zásilky atributem neplatna, zobrazení atributu ostatním aktérům."
+  }, {
+    "code" : "3",
+    "display" : "Smazána",
+    "definition" : "Trvalé a nevratné smazání zásilky z dočasného uložiště"
+  }, {
+    "code" : "5",
+    "display" : "Zpochybněna",
+    "definition" : "Zásilka byla zpochybněna, je potřeba jejiho ověření. "
+  } ]
+}

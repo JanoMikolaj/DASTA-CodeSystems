@@ -1,0 +1,115 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "media-type--1.0.0",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/media-type"
+  } ],
+  "url" : "https://hl7.cz/terminology/ValueSet/media-type",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Media type",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Media type"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-20T07:46:15.62037Z",
+  "publisher" : "HL7 Czech Republic",
+  "effectivePeriod" : {
+    "start" : "2025-11-20T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+      "version" : "3.0.0",
+      "concept" : [ {
+        "code" : "application/dicom",
+        "display" : "DICOM"
+      }, {
+        "code" : "application/fhir+json",
+        "display" : "FHIR (JSON)"
+      }, {
+        "code" : "application/fhir+xml",
+        "display" : "FHIR (XML)"
+      }, {
+        "code" : "application/pdf",
+        "display" : "PDF"
+      }, {
+        "code" : "audio/mp4",
+        "display" : "MP4 Audio"
+      }, {
+        "code" : "audio/mpeg",
+        "display" : "MPEG audio layer 3"
+      }, {
+        "code" : "image/gif",
+        "display" : "GIF Graphics Interchange Format"
+      }, {
+        "code" : "image/jp2",
+        "display" : "JPEG 2000 Core Image File"
+      }, {
+        "code" : "image/jpeg",
+        "display" : "JPEG Image"
+      }, {
+        "code" : "image/jpm",
+        "display" : "JPEG 2000 Compound Image File"
+      }, {
+        "code" : "image/jpx",
+        "display" : "JPEG 2000 Image File"
+      }, {
+        "code" : "image/png",
+        "display" : "PNG Portable Network Graphics"
+      }, {
+        "code" : "image/tiff",
+        "display" : "TIFF Image"
+      }, {
+        "code" : "model/vrml",
+        "display" : "Virtual Reality Modeling Language"
+      }, {
+        "code" : "model/x3d+xml",
+        "display" : "Extensible 3D Graphics (XML)"
+      }, {
+        "code" : "model/x3d-vrml",
+        "display" : "Extensible 3D Graphics (VRML)"
+      }, {
+        "code" : "multipart/multilingual",
+        "display" : "Multilingual Multipart"
+      }, {
+        "code" : "multipart/signed",
+        "display" : "Signed Multipart"
+      }, {
+        "code" : "multipart/x-hl7-cda-level1",
+        "display" : "CDA Level 1 Multipart"
+      }, {
+        "code" : "text/csv",
+        "display" : "CSV Comma-separated Values"
+      }, {
+        "code" : "text/plain",
+        "display" : "Plain Text"
+      }, {
+        "code" : "text/xml",
+        "display" : "XML-Text"
+      }, {
+        "code" : "video/mj2",
+        "display" : "Motion JPEG 2000"
+      }, {
+        "code" : "video/mp4",
+        "display" : "MPEG-4 Part 14"
+      }, {
+        "code" : "video/mpeg",
+        "display" : "MPEG Video"
+      } ]
+    } ],
+    "property" : [ "display" ]
+  }
+}

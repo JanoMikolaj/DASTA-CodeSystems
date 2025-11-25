@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "duvod-vraceni--1.0.0",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/duvod-vraceni"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/duvod-vraceni",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Důvod vracení",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Důvod vracení"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "National eHealth Center (NCEZ)",
+  "effectivePeriod" : {
+    "start" : "2025-08-04T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "https://ncez.mzcr.cz/terminology/CodeSystem/duvod-vraceni",
+      "version" : "1.0.0"
+    } ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "duvod-odmitnuti--0.0.1",
+  "language" : "en",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/duvod-odmitnuti"
+  } ],
+  "url" : "http://terminology.hl7.org/ValueSet/duvod-odmitnuti",
+  "version" : "0.0.1",
+  "versionAlgorithmString" : "semver",
+  "title" : "Důvod odmítnutí",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Důvod odmítnutí"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-10-22T12:31:40.765149Z",
+  "publisher" : "HL7 terminology",
+  "effectivePeriod" : {
+    "start" : "2025-10-22T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "https://ncez.mzcr.cz/terminology/CodeSystem/duvod-odmitnuti",
+      "version" : "1.0.0"
+    } ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "search-document-types--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/search-document-types"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/search-document-types",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Všechny typy dokumentů",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Search document types"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T19:22:51.629952Z",
+  "publisher" : "National eHealth Center (NCEZ)",
+  "description" : "Typy dokumentů zejména pro účely vyhledávání.",
+  "effectivePeriod" : {
+    "start" : "2025-11-19T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "valueSet" : [ "https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types" ]
+    }, {
+      "valueSet" : [ "https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type" ]
+    }, {
+      "valueSet" : [ "https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types" ]
+    }, {
+      "valueSet" : [ "https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types" ]
+    }, {
+      "valueSet" : [ "https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type" ]
+    } ]
+  }
+}

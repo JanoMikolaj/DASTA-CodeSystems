@@ -1,0 +1,85 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "zpusob-vyrizeni--1.0.0",
+  "language" : "en",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/zpusob-vyrizeni"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/zpusob-vyrizeni",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Způsob vyřízení",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Způsob vyřízení"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "National eHealth Center (NCEZ)",
+  "description" : "Způsob vyřízení žádanky",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Způsob vyřízení žádanky"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "purpose" : "Možné způsoby vyřízení",
+  "_purpose" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Možné způsoby vyřízení"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2025-08-04T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "1",
+    "display" : "Zaslání výsledku zásilkou",
+    "definition" : "V rámci vyřízení dojde k vytvoření nové zásilky s výsledky"
+  }, {
+    "code" : "2",
+    "display" : "Propojení s existujícími zásilkami",
+    "definition" : "V rámci vyřízení dojde k propojení žádanky s výsledky zaslánými jinými adresáty"
+  }, {
+    "code" : "3",
+    "display" : "Jiný",
+    "definition" : "Libovolný jiný způsob vyřízení"
+  } ]
+}

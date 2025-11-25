@@ -1,0 +1,6534 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v3-ietf3066--2.0.1",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>urn:ietf:bcp:47</code> defines many codes, but they are not represented here</p></div>"
+  },
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/v3-ietf3066"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "urn:ietf:bcp:47",
+  "identifier" : [ {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.6.121"
+  } ],
+  "version" : "2.0.1",
+  "name" : "Ietf3066",
+  "title" : "Tags for the Identification of Languages",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Tags for the Identification of Languages"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-26T12:50:12.890717Z",
+  "publisher" : "eHMSEG",
+  "contact" : [ {
+    "name" : "The Internet Engineering Task Force (IETF)"
+  } ],
+  "effectivePeriod" : {
+    "start" : "2025-06-13T00:00:00Z"
+  },
+  "caseSensitive" : true,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "Code System ID",
+    "type" : "string"
+  }, {
+    "code" : "Code System Version",
+    "type" : "string"
+  }, {
+    "code" : "definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "af-NA",
+    "display" : "Afrikaans-NAMIBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "afrikánština-Namibie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "af-ZA",
+    "display" : "Afrikaans-SOUTH AFRICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "afrikánština-Jižní Afrika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ak-GH",
+    "display" : "Akan-GHANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "akanština-Ghana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "am-ET",
+    "display" : "Amharic-ETHIOPIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "amharština-Etiopie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-AE",
+    "display" : "Arabic-UNITED ARAB EMIRATES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Spojené arabské emiráty"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-BH",
+    "display" : "Arabic-BAHRAIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Bahrajn"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-DJ",
+    "display" : "Arabic-DJIBOUTI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Džibutsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-DZ",
+    "display" : "Arabic-ALGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Alžírsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-EG",
+    "display" : "Arabic-EGYPT",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Egypt"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-EH",
+    "display" : "Arabic-WESTERN SAHARA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Západní Sahara"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-ER",
+    "display" : "Arabic-ERITREA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Eritrea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-IL",
+    "display" : "Arabic-ISRAEL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Izrael"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-IQ",
+    "display" : "Arabic-IRAQ",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Irák"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-JO",
+    "display" : "Arabic-JORDAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Jordánsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-KM",
+    "display" : "Arabic-COMOROS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Komory"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-KW",
+    "display" : "Arabic-KUWAIT",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Kuvajt"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-LB",
+    "display" : "Arabic-LEBANON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Libanon"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-LY",
+    "display" : "Arabic-LIBYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Libye"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-MA",
+    "display" : "Arabic-MOROCCO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Maroko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-MR",
+    "display" : "Arabic-MAURITANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Mauritánie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-OM",
+    "display" : "Arabic-OMAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Omán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-PS",
+    "display" : "Arabic-PALESTINE, STATE OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Palestina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-QA",
+    "display" : "Arabic-QATAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Katar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-SA",
+    "display" : "Arabic-SAUDI ARABIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Saúdská Arábie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-SD",
+    "display" : "Arabic-SUDAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Súdán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-SO",
+    "display" : "Arabic-SOMALIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Somálsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-SS",
+    "display" : "Arabic-SOUTH SUDAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Jižní Súdán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-SY",
+    "display" : "Arabic-SYRIAN ARAB REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Sýrie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-TD",
+    "display" : "Arabic-CHAD",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Čad"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-TN",
+    "display" : "Arabic-TUNISIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Tunisko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ar-YE",
+    "display" : "Arabic-YEMEN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arabština-Jemen"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "as-IN",
+    "display" : "Assamese-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ásámština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "az-AZ",
+    "display" : "Azerbaijani-AZERBAIJAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ázerbájdžánština-Ázerbájdžán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "be-BY",
+    "display" : "Belarusian-BELARUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "běloruština-Bělorusko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bg-BG",
+    "display" : "Bulgarian-BULGARIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bulharština-Bulharsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bm-ML",
+    "display" : "Bambara-MALI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bambarština-Mali"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bn-BD",
+    "display" : "Bengali-BANGLADESH",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bengálština-Bangladéš"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bn-IN",
+    "display" : "Bengali-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bengálština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bo-CN",
+    "display" : "Tibetan-CHINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tibetština-Čína"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bo-IN",
+    "display" : "Tibetan-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tibetština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "br-FR",
+    "display" : "Breton-FRANCE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bretonština-Francie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "bs-BA",
+    "display" : "Bosnian-BOSNIA AND HERZEGOVINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bosenština-Bosna a Hercegovina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ca-AD",
+    "display" : "Catalan; Valencian-ANDORRA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "katalánština, valencijština-Andorra"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ca-ES",
+    "display" : "Catalan; Valencian-SPAIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "katalánština, valencijština-Španělsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ca-FR",
+    "display" : "Catalan; Valencian-FRANCE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "katalánština, valencijština-Francie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ca-IT",
+    "display" : "Catalan; Valencian-ITALY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "katalánština, valencijština-Itálie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "cs-CZ",
+    "display" : "Czech-CZECH REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čeština-Česko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "cy-GB",
+    "display" : "Welsh-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "velština-Velká Británie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "da-DK",
+    "display" : "Danish-DENMARK",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "dánština-Dánsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "da-GL",
+    "display" : "Danish-GREENLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "dánština-Grónsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-AT",
+    "display" : "German-AUSTRIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Rakousko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-BE",
+    "display" : "German-BELGIUM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Belgie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-CH",
+    "display" : "German-SWITZERLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Švýcarsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-DE",
+    "display" : "German-GERMANY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Německo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-LI",
+    "display" : "German-LIECHTENSTEIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Lichtenštejnsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "de-LU",
+    "display" : "German-LUXEMBOURG",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "němčina-Lucembursko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "dz-BT",
+    "display" : "Dzongkha-BHUTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "dzongkha-Bhútán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ee-GH",
+    "display" : "Ewe-GHANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "eveština-Ghana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ee-TG",
+    "display" : "Ewe-TOGO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "eveština-Togo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "el-CY",
+    "display" : "Greek, Modern (1453-)-CYPRUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "řečtina (1453–)-Kypr"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "el-GR",
+    "display" : "Greek, Modern (1453-)-GREECE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "řečtina (1453–)-Řecko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-AG",
+    "display" : "English-ANTIGUA AND BARBUDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Antigua a Barbuda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-AI",
+    "display" : "English-ANGUILLA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Anguilla"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-AS",
+    "display" : "English-AMERICAN SAMOA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Americká Samoa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-AU",
+    "display" : "English-AUSTRALIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Austrálie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BB",
+    "display" : "English-BARBADOS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Barbados"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BE",
+    "display" : "English-BELGIUM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Belgie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BM",
+    "display" : "English-BERMUDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Bermudy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BS",
+    "display" : "English-BAHAMAS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Bahamy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BW",
+    "display" : "English-BOTSWANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Botswana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-BZ",
+    "display" : "English-BELIZE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Belize"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-CA",
+    "display" : "English-CANADA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Kanada"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-CC",
+    "display" : "English-COCOS (KEELING) ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Kokosové (Keelingovy) ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-CK",
+    "display" : "English-COOK ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Cookovy ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-CM",
+    "display" : "English-CAMEROON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Kamerun"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-CX",
+    "display" : "English-CHRISTMAS ISLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Vánoční ostrov"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-DM",
+    "display" : "English-DOMINICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Dominika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-ER",
+    "display" : "English-ERITREA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Eritrea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-FJ",
+    "display" : "English-FIJI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Fidži"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-FK",
+    "display" : "English-FALKLAND ISLANDS (MALVINAS)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Falklandy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-FM",
+    "display" : "English-MICRONESIA (FEDERATED STATES OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Mikronésie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GB",
+    "display" : "English-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Velká Británie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GD",
+    "display" : "English-GRENADA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Grenada"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GG",
+    "display" : "English-GUERNSEY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Guernsey"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GH",
+    "display" : "English-GHANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Ghana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GI",
+    "display" : "English-GIBRALTAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Gibraltar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GM",
+    "display" : "English-GAMBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Gambie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GU",
+    "display" : "English-GUAM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Guam"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-GY",
+    "display" : "English-GUYANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Guyana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-HK",
+    "display" : "English-HONG KONG",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Hongkong"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-IE",
+    "display" : "English-IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Irsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-IM",
+    "display" : "English-ISLE OF MAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Man"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-IN",
+    "display" : "English-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-IO",
+    "display" : "English-BRITISH INDIAN OCEAN TERRITORY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Britské indickooceánské území"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-JE",
+    "display" : "English-JERSEY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Jersey"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-JM",
+    "display" : "English-JAMAICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Jamajka"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-KE",
+    "display" : "English-KENYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Keňa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-KI",
+    "display" : "English-KIRIBATI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Kiribati"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-KN",
+    "display" : "English-SAINT KITTS AND NEVIS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svatý Kryštof a Nevis"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-KY",
+    "display" : "English-CAYMAN ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Kajmanské ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-LC",
+    "display" : "English-SAINT LUCIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svatá Lucie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-LR",
+    "display" : "English-LIBERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Libérie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-LS",
+    "display" : "English-LESOTHO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Lesotho"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MG",
+    "display" : "English-MADAGASCAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Madagaskar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MH",
+    "display" : "English-MARSHALL ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Marshallovy ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MO",
+    "display" : "English-MACAO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Macao"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MP",
+    "display" : "English-NORTHERN MARIANA ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Severní Mariany"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MS",
+    "display" : "English-MONTSERRAT",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Montserrat"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MT",
+    "display" : "English-MALTA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Malta"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MU",
+    "display" : "English-MAURITIUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Mauricius"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MW",
+    "display" : "English-MALAWI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Malawi"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-MY",
+    "display" : "English-MALAYSIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Malajsie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NA",
+    "display" : "English-NAMIBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Namibie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NF",
+    "display" : "English-NORFOLK ISLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Norfolk"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NG",
+    "display" : "English-NIGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Nigérie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NR",
+    "display" : "English-NAURU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Nauru"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NU",
+    "display" : "English-NIUE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Niue"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-NZ",
+    "display" : "English-NEW ZEALAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Nový Zéland"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PG",
+    "display" : "English-PAPUA NEW GUINEA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Papua Nová Guinea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PH",
+    "display" : "English-PHILIPPINES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Filipíny"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PK",
+    "display" : "English-PAKISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Pákistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PN",
+    "display" : "English-PITCAIRN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Pitcairn"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PR",
+    "display" : "English-PUERTO RICO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Portoriko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-PW",
+    "display" : "English-PALAU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Palau"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-RW",
+    "display" : "English-RWANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Rwanda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SB",
+    "display" : "English-SOLOMON ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Šalomounovy ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SC",
+    "display" : "English-SEYCHELLES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Seychely"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SD",
+    "display" : "English-SUDAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Súdán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SG",
+    "display" : "English-SINGAPORE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Singapur"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SH",
+    "display" : "English-SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svatá Helena"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SL",
+    "display" : "English-SIERRA LEONE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Sierra Leone"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SS",
+    "display" : "English-SOUTH SUDAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Jižní Súdán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SX",
+    "display" : "English-SINT MAARTEN (DUTCH PART)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svatý Martin (NL)"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-SZ",
+    "display" : "English-SWAZILAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svazijsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TC",
+    "display" : "English-TURKS AND CAICOS ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Turks a Caicos"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TK",
+    "display" : "English-TOKELAU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Tokelau"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TO",
+    "display" : "English-TONGA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Tonga"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TT",
+    "display" : "English-TRINIDAD AND TOBAGO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Trinidad a Tobago"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TV",
+    "display" : "English-TUVALU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Tuvalu"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-TZ",
+    "display" : "English-TANZANIA, UNITED REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Tanzanie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-UG",
+    "display" : "English-UGANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Uganda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-UM",
+    "display" : "English-UNITED STATES MINOR OUTLYING ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Menší odlehlé ostrovy USA"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-US",
+    "display" : "English-UNITED STATES OF AMERICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Spojené státy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-VC",
+    "display" : "English-SAINT VINCENT AND THE GRENADINES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Svatý Vincenc a Grenadiny"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-VG",
+    "display" : "English-VIRGIN ISLANDS, BRITISH",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Britské Panenské ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-VI",
+    "display" : "English-VIRGIN ISLANDS, U.S.",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Americké Panenské ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-VU",
+    "display" : "English-VANUATU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Vanuatu"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-WS",
+    "display" : "English-SAMOA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Samoa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-ZA",
+    "display" : "English-SOUTH AFRICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Jižní Afrika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-ZM",
+    "display" : "English-ZAMBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Zambie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "en-ZW",
+    "display" : "English-ZIMBABWE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "angličtina-Zimbabwe"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-AR",
+    "display" : "Spanish; Castilian-ARGENTINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Argentina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-BO",
+    "display" : "Spanish; Castilian-BOLIVIA (PLURINATIONAL STATE OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Bolívie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-CL",
+    "display" : "Spanish; Castilian-CHILE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Chile"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-CO",
+    "display" : "Spanish; Castilian-COLOMBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Kolumbie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-CR",
+    "display" : "Spanish; Castilian-COSTA RICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Kostarika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-CU",
+    "display" : "Spanish; Castilian-CUBA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Kuba"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-DO",
+    "display" : "Spanish; Castilian-DOMINICAN REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Dominikánská republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-EC",
+    "display" : "Spanish; Castilian-ECUADOR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Ekvádor"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-ES",
+    "display" : "Spanish; Castilian-SPAIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Španělsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-GQ",
+    "display" : "Spanish; Castilian-EQUATORIAL GUINEA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Rovníková Guinea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-GT",
+    "display" : "Spanish; Castilian-GUATEMALA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Guatemala"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-HN",
+    "display" : "Spanish; Castilian-HONDURAS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Honduras"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-MX",
+    "display" : "Spanish; Castilian-MEXICO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Mexiko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-NI",
+    "display" : "Spanish; Castilian-NICARAGUA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Nikaragua"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-PA",
+    "display" : "Spanish; Castilian-PANAMA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Panama"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-PE",
+    "display" : "Spanish; Castilian-PERU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Peru"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-PH",
+    "display" : "Spanish; Castilian-PHILIPPINES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Filipíny"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-PR",
+    "display" : "Spanish; Castilian-PUERTO RICO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Portoriko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-PY",
+    "display" : "Spanish; Castilian-PARAGUAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Paraguay"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-SV",
+    "display" : "Spanish; Castilian-EL SALVADOR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Salvador"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-US",
+    "display" : "Spanish; Castilian-UNITED STATES OF AMERICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Spojené státy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-UY",
+    "display" : "Spanish; Castilian-URUGUAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Uruguay"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "es-VE",
+    "display" : "Spanish; Castilian-VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "španělština, kastilština-Venezuela"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "et-EE",
+    "display" : "Estonian-ESTONIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "estonština-Estonsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "eu-ES",
+    "display" : "Basque; Basque County-SPAIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "baskičtina-Španělsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fa-AF",
+    "display" : "Persian-AFGHANISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "perština-Afghánistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fa-IR",
+    "display" : "Persian-IRAN (ISLAMIC REPUBLIC OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "perština-Írán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ff-CM",
+    "display" : "Fulah-CAMEROON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "fulbština-Kamerun"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ff-GN",
+    "display" : "Fulah-GUINEA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "fulbština-Guinea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ff-MR",
+    "display" : "Fulah-MAURITANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "fulbština-Mauritánie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ff-SN",
+    "display" : "Fulah-SENEGAL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "fulbština-Senegal"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fi-FI",
+    "display" : "Finnish-FINLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "finština-Finsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fo-FO",
+    "display" : "Faroese-FAROE ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "faerština-Faerské ostrovy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-BE",
+    "display" : "French-BELGIUM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Belgie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-BF",
+    "display" : "French-BURKINA FASO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Burkina Faso"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-BI",
+    "display" : "French-BURUNDI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Burundi"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-BJ",
+    "display" : "French-BENIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Benin"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-BL",
+    "display" : "French-SAINT BARTHÉLEMY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Svatý Bartoloměj"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CA",
+    "display" : "French-CANADA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Kanada"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CD",
+    "display" : "French-CONGO, DEMOCRATIC REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Demokratická republika Kongo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CF",
+    "display" : "French-CENTRAL AFRICAN REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Středoafrická republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CG",
+    "display" : "French-CONGO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Konžská republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CH",
+    "display" : "French-SWITZERLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Švýcarsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CI",
+    "display" : "French-COTE D'IVOIRE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Pobřeží slonoviny"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-CM",
+    "display" : "French-CAMEROON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Kamerun"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-DJ",
+    "display" : "French-DJIBOUTI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Džibutsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-DZ",
+    "display" : "French-ALGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Alžírsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-FR",
+    "display" : "French-FRANCE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Francie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-GA",
+    "display" : "French-GABON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Gabon"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-GF",
+    "display" : "French-FRENCH GUIANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Francouzská Guyana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-GN",
+    "display" : "French-GUINEA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Guinea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-GP",
+    "display" : "French-GUADELOUPE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Guadeloupe"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-GQ",
+    "display" : "French-EQUATORIAL GUINEA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Rovníková Guinea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-HT",
+    "display" : "French-HAITI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Haiti"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-KM",
+    "display" : "French-COMOROS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Komory"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-LU",
+    "display" : "French-LUXEMBOURG",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Lucembursko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MA",
+    "display" : "French-MOROCCO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Maroko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MC",
+    "display" : "French-MONACO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Monako"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MF",
+    "display" : "French-SAINT MARTIN (FRENCH PART)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Svatý Martin (FR)"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MG",
+    "display" : "French-MADAGASCAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Madagaskar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-ML",
+    "display" : "French-MALI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Mali"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MQ",
+    "display" : "French-MARTINIQUE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Martinik"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MR",
+    "display" : "French-MAURITANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Mauritánie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-MU",
+    "display" : "French-MAURITIUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Mauricius"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-NC",
+    "display" : "French-NEW CALEDONIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Nová Kaledonie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-NE",
+    "display" : "French-NIGER",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Niger"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-PF",
+    "display" : "French-FRENCH POLYNESIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Francouzská Polynésie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-PM",
+    "display" : "French-SAINT PIERRE AND MIQUELON",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Saint Pierre a Miquelon"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-RE",
+    "display" : "French-REUNION",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Réunion"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-RW",
+    "display" : "French-RWANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Rwanda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-SC",
+    "display" : "French-SEYCHELLES",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Seychely"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-SN",
+    "display" : "French-SENEGAL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Senegal"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-SY",
+    "display" : "French-SYRIAN ARAB REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Sýrie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-TD",
+    "display" : "French-CHAD",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Čad"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-TG",
+    "display" : "French-TOGO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Togo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-TN",
+    "display" : "French-TUNISIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Tunisko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-VU",
+    "display" : "French-VANUATU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Vanuatu"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-WF",
+    "display" : "French-WALLIS AND FUTUNA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Wallis a Futuna"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fr-YT",
+    "display" : "French-MAYOTTE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "francouzština-Mayotte"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "fy-NL",
+    "display" : "Western Frisian-NETHERLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "západní fríština-Nizozemsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ga-IE",
+    "display" : "Irish-IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "irština-Irsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "gd-GB",
+    "display" : "Gaelic; Scottish Gaelic-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "skotská gaelština-Velká Británie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "gl-ES",
+    "display" : "Galician; Galicia-SPAIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "galicijština-Španělsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "gu-IN",
+    "display" : "Gujarati-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "gudžarátština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "gv-IM",
+    "display" : "Manx-ISLE OF MAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "manština-Man"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ha-GH",
+    "display" : "Hausa-GHANA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "hauština-Ghana"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ha-NE",
+    "display" : "Hausa-NIGER",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "hauština-Niger"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ha-NG",
+    "display" : "Hausa-NIGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "hauština-Nigérie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "he-IL",
+    "display" : "Hebrew-ISRAEL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "hebrejština-Izrael"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "hi-IN",
+    "display" : "Hindi-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "hindština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "hr-BA",
+    "display" : "Croatian-BOSNIA AND HERZEGOVINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "chorvatština-Bosna a Hercegovina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "hr-HR",
+    "display" : "Croatian-CROATIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "chorvatština-Chorvatsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "hu-HU",
+    "display" : "Hungarian-HUNGARY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "maďarština-Maďarsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "hy-AM",
+    "display" : "Armenian-ARMENIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "arménština-Arménie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "id-ID",
+    "display" : "Indonesian-INDONESIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "indonéština-Indonésie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ig-NG",
+    "display" : "Igbo-NIGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "iboština-Nigérie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ii-CN",
+    "display" : "Sichuan Yi; Nuosu-CHINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "i, Nuosu-Čína"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "is-IS",
+    "display" : "Icelandic-ICELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "islandština-Island"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "it-CH",
+    "display" : "Italian-SWITZERLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "italština-Švýcarsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "it-IT",
+    "display" : "Italian-ITALY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "italština-Itálie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "it-SM",
+    "display" : "Italian-SAN MARINO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "italština-San Marino"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ja-JP",
+    "display" : "Japanese-JAPAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "japonština-Japonsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ka-GE",
+    "display" : "Georgian-GEORGIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "gruzínština-Gruzie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ki-KE",
+    "display" : "Kikuyu; Gikuyu-KENYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kikujština, Gikuyu-Keňa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "kk-KZ",
+    "display" : "Kazakh-KAZAKHSTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kazaština-Kazachstán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "kl-GL",
+    "display" : "Kalaallisut; Greenlandic-GREENLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grónština, kalaallisut-Grónsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "km-KH",
+    "display" : "Central Khmer-CAMBODIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "khmerština-Kambodža"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "kn-IN",
+    "display" : "Kannada-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kannadština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ko-KP",
+    "display" : "Korean-KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "korejština-Korejská lidově demokratická republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ko-KR",
+    "display" : "Korean-KOREA, REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "korejština-Korejská republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ks-IN",
+    "display" : "Kashmiri-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kašmírština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "kw-GB",
+    "display" : "Cornish-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kornština-Velká Británie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ky-KG",
+    "display" : "Kirghiz; Kyrgyz-KYRGYZSTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kirgizština, Kyrgyz-Kyrgyzstán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lb-LU",
+    "display" : "Luxembourgish; Letzeburgesch-LUXEMBOURG",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "lucemburština-Lucembursko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lg-UG",
+    "display" : "Ganda-UGANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "gandština-Uganda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ln-AO",
+    "display" : "Lingala-ANGOLA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ngalština-Angola"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ln-CD",
+    "display" : "Lingala-CONGO, DEMOCRATIC REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ngalština-Demokratická republika Kongo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ln-CF",
+    "display" : "Lingala-CENTRAL AFRICAN REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ngalština-Středoafrická republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ln-CG",
+    "display" : "Lingala-CONGO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ngalština-Konžská republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lo-LA",
+    "display" : "Lao-LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "laoština-Laos"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lt-LT",
+    "display" : "Lithuanian-LITHUANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "litevština-Litva"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lu-CD",
+    "display" : "Luba-Katanga-CONGO, DEMOCRATIC REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "katangská lubština-Demokratická republika Kongo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "lv-LV",
+    "display" : "Latvian-LATVIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "lotyština-Lotyšsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "mg-MG",
+    "display" : "Malagasy-MADAGASCAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "malgaština-Madagaskar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "mk-MK",
+    "display" : "Macedonian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "makedonština-Makedonie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ml-IN",
+    "display" : "Malayalam-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "malajálamština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "mn-MN",
+    "display" : "Mongolian-MONGOLIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "mongolština-Mongolsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "mr-IN",
+    "display" : "Marathi-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "maráthština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ms-BN",
+    "display" : "Malay-BRUNEI DARUSSALAM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "malajština-Brunej"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ms-MY",
+    "display" : "Malay-MALAYSIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "malajština-Malajsie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ms-SG",
+    "display" : "Malay-SINGAPORE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "malajština-Singapur"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "mt-MT",
+    "display" : "Maltese-MALTA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "maltština-Malta"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "my-MM",
+    "display" : "Burmese-MYANMAR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "barmština-Myanmar"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nb-NO",
+    "display" : "Bokmål, Norwegian; Norwegian Bokmål-NORWAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bokmål (norština)-Norsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nb-SJ",
+    "display" : "Bokmål, Norwegian; Norwegian Bokmål-SVALBARD AND JAN MAYEN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "bokmål (norština)-Špicberky a Jan Mayen"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nd-ZW",
+    "display" : "Ndebele, North; North Ndebele-ZIMBABWE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "severní ndebelština-Zimbabwe"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ne-IN",
+    "display" : "Nepali-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nepálština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ne-NP",
+    "display" : "Nepali-NEPAL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nepálština-Nepál"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-AW",
+    "display" : "Dutch; Flemish-ARUBA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Aruba"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-BE",
+    "display" : "Dutch; Flemish-BELGIUM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Belgie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-BQ",
+    "display" : "Dutch; Flemish-BONAIRE, SINT EUSTATIUS AND SABA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Bonaire, Svatý Eustach a Saba"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-CW",
+    "display" : "Dutch; Flemish-CURAÇAO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Curaçao"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-NL",
+    "display" : "Dutch; Flemish-NETHERLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Nizozemsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-SR",
+    "display" : "Dutch; Flemish-SURINAME",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Surinam"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nl-SX",
+    "display" : "Dutch; Flemish-SINT MAARTEN (DUTCH PART)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nizozemština, vlámština-Svatý Martin (NL)"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "nn-NO",
+    "display" : "Norwegian Nynorsk; Nynorsk, Norwegian-NORWAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nynorsk (norština)-Norsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "no-NO",
+    "display" : "Norwegian-NORWAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "norština-Norsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "om-ET",
+    "display" : "Oromo-ETHIOPIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "oromo-Etiopie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "om-KE",
+    "display" : "Oromo-KENYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "oromo-Keňa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "or-IN",
+    "display" : "Oriya-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "urijština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "os-GE",
+    "display" : "Ossetian; Ossetic-GEORGIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "osetština-Gruzie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "os-RU",
+    "display" : "Ossetian; Ossetic-RUSSIAN FEDERATION",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "osetština-Rusko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pa-IN",
+    "display" : "Panjabi; Punjabi-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "paňdžábština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pa-PK",
+    "display" : "Panjabi; Punjabi-PAKISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "paňdžábština-Pákistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pl-PL",
+    "display" : "Polish-POLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "polština-Polsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ps-AF",
+    "display" : "Pushto; Pashto-AFGHANISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "paštština-Afghánistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-AO",
+    "display" : "Portuguese-ANGOLA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Angola"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-BR",
+    "display" : "Portuguese-BRAZIL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Brazílie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-CV",
+    "display" : "Portuguese-CAPE VERDE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Kapverdy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-GW",
+    "display" : "Portuguese-GUINEA-BISSAU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Guinea-Bissau"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-MO",
+    "display" : "Portuguese-MACAO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Macao"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-MZ",
+    "display" : "Portuguese-MOZAMBIQUE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Mosambik"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-PT",
+    "display" : "Portuguese-PORTUGAL",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Portugalsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-ST",
+    "display" : "Portuguese-SAO TOME AND PRINCIPE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Svatý Tomáš a Princův ostrov"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "pt-TL",
+    "display" : "Portuguese-TIMOR-LESTE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "portugalština-Východní Timor"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "qu-BO",
+    "display" : "Quechua-BOLIVIA (PLURINATIONAL STATE OF)",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kečujština-Bolívie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "qu-EC",
+    "display" : "Quechua-ECUADOR",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kečujština-Ekvádor"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "qu-PE",
+    "display" : "Quechua-PERU",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "kečujština-Peru"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "rm-CH",
+    "display" : "Romansh-SWITZERLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "rétorománština-Švýcarsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "rn-BI",
+    "display" : "Rundi-BURUNDI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "rundština-Burundi"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ro-MD",
+    "display" : "Romanian; Moldavian; Moldovan-MOLDOVA, REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "rumunština-Moldavsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ro-RO",
+    "display" : "Romanian; Moldavian; Moldovan-ROMANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "rumunština-Rumunsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-BY",
+    "display" : "Russian-BELARUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Bělorusko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-KG",
+    "display" : "Russian-KYRGYZSTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Kyrgyzstán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-KZ",
+    "display" : "Russian-KAZAKHSTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Kazachstán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-MD",
+    "display" : "Russian-MOLDOVA, REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Moldavsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-RU",
+    "display" : "Russian-RUSSIAN FEDERATION",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Rusko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ru-UA",
+    "display" : "Russian-UKRAINE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ruština-Ukrajina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "rw-RW",
+    "display" : "Kinyarwanda-RWANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "rwandština-Rwanda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "se-FI",
+    "display" : "Northern Sami-FINLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "severní sámština-Finsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "se-NO",
+    "display" : "Northern Sami-NORWAY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "severní sámština-Norsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "se-SE",
+    "display" : "Northern Sami-SWEDEN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "severní sámština-Švédsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sg-CF",
+    "display" : "Sango-CENTRAL AFRICAN REPUBLIC",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sangoština-Středoafrická republika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "si-LK",
+    "display" : "Sinhala; Sinhalese-SRI LANKA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sinhalština, Sinhala-Šrí Lanka"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sk-SK",
+    "display" : "Slovak-SLOVAKIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "slovenština-Slovensko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sl-SI",
+    "display" : "Slovenian-SLOVENIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "slovinština-Slovinsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sn-ZW",
+    "display" : "Shona-ZIMBABWE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "šonština-Zimbabwe"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "so-DJ",
+    "display" : "Somali-DJIBOUTI",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "somálština-Džibutsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "so-ET",
+    "display" : "Somali-ETHIOPIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "somálština-Etiopie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "so-KE",
+    "display" : "Somali-KENYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "somálština-Keňa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "so-SO",
+    "display" : "Somali-SOMALIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "somálština-Somálsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sq-AL",
+    "display" : "Albanian-ALBANIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "albánština-Albánie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sq-MK",
+    "display" : "Albanian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "albánština-Makedonie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sr-BA",
+    "display" : "Serbian-BOSNIA AND HERZEGOVINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "srbština-Bosna a Hercegovina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sr-ME",
+    "display" : "Serbian-MONTENEGRO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "srbština-Černá Hora"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sr-RS",
+    "display" : "Serbian-SERBIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "srbština-Srbsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sv-AX",
+    "display" : "Swedish-ÅLAND ISLANDS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "švédština-Alandy"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sv-FI",
+    "display" : "Swedish-FINLAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "švédština-Finsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sv-SE",
+    "display" : "Swedish-SWEDEN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "švédština-Švédsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sw-CD",
+    "display" : "Swahili-CONGO, DEMOCRATIC REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "svahilština-Demokratická republika Kongo"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sw-KE",
+    "display" : "Swahili-KENYA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "svahilština-Keňa"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sw-TZ",
+    "display" : "Swahili-TANZANIA, UNITED REPUBLIC OF",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "svahilština-Tanzanie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "sw-UG",
+    "display" : "Swahili-UGANDA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "svahilština-Uganda"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ta-IN",
+    "display" : "Tamil-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tamilština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ta-LK",
+    "display" : "Tamil-SRI LANKA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tamilština-Šrí Lanka"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ta-MY",
+    "display" : "Tamil-MALAYSIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tamilština-Malajsie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ta-SG",
+    "display" : "Tamil-SINGAPORE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tamilština-Singapur"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "te-IN",
+    "display" : "Telugu-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "telugština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "th-TH",
+    "display" : "Thai-THAILAND",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "thajština-Thajsko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ti-ER",
+    "display" : "Tigrinya-ERITREA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tigriňňa-Eritrea"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ti-ET",
+    "display" : "Tigrinya-ETHIOPIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tigriňňa-Etiopie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "to-TO",
+    "display" : "Tonga (Tonga Islands)-TONGA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "tongánština-Tonga"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "tr-CY",
+    "display" : "Turkish-CYPRUS",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "turečtina-Kypr"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "tr-TR",
+    "display" : "Turkish-TURKEY",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "turečtina-Turecko"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ug-CN",
+    "display" : "Uighur; Uyghur-CHINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ujgurština, Uyghur-Čína"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "uk-UA",
+    "display" : "Ukrainian-UKRAINE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ukrajinština-Ukrajina"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ur-IN",
+    "display" : "Urdu-INDIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "urdština-Indie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "ur-PK",
+    "display" : "Urdu-PAKISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "urdština-Pákistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "uz-AF",
+    "display" : "Uzbek-AFGHANISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "uzbečtina-Afghánistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "uz-UZ",
+    "display" : "Uzbek-UZBEKISTAN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "uzbečtina-Uzbekistán"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "vi-VN",
+    "display" : "Vietnamese-VIET NAM",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "vietnamština-Vietnam"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "yo-BJ",
+    "display" : "Yoruba-BENIN",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "jorubština-Benin"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "yo-NG",
+    "display" : "Yoruba-NIGERIA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "jorubština-Nigérie"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zh-CN",
+    "display" : "Chinese-CHINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čínština-Čína"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zh-HK",
+    "display" : "Chinese-HONG KONG",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čínština-Hongkong"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zh-MO",
+    "display" : "Chinese-MACAO",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čínština-Macao"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zh-SG",
+    "display" : "Chinese-SINGAPORE",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čínština-Singapur"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zh-TW",
+    "display" : "Chinese-TAIWAN, PROVINCE OF CHINA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "čínština-Tchaj-wan"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  }, {
+    "code" : "zu-ZA",
+    "display" : "Zulu-SOUTH AFRICA",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "zulština-Jižní Afrika"
+    } ],
+    "property" : [ {
+      "code" : "Code System ID",
+      "valueString" : "1dd183a6-6d2b-4a9d-8f5d-be09d6bb5a6e"
+    }, {
+      "code" : "Code System Version",
+      "valueString" : "2017-03"
+    } ]
+  } ],
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Older value from OID registry.  Superceded; see recommendations in BCP-47."
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  }
+}

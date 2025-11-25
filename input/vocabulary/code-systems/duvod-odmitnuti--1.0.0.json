@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "duvod-odmitnuti--1.0.0",
+  "language" : "en",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/duvod-odmitnuti"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/duvod-odmitnuti",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Důvod odmítnutí",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Důvod odmítnutí"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "National eHealth Center (NCEZ)",
+  "description" : "Důvod neproveditelnosti a odmítnutí žádanky ",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Důvod neproveditelnosti a odmítnutí žádanky "
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2025-08-04T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "1",
+    "display" : "Ohrožení zdraví pacienta",
+    "definition" : "Vyšetření může ohrozit zdraví pacienta"
+  } ]
+}

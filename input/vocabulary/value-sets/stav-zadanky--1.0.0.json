@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stav-zadanky--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/stav-zadanky"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/stav-zadanky",
+  "version" : "1.0.0",
+  "title" : "Stav žádanky",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "E-order status"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T17:33:51.092113Z",
+  "publisher" : "National eHealth Center (NCEZ)",
+  "effectivePeriod" : {
+    "start" : "2025-08-04T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "https://ncez.mzcr.cz/terminology/CodeSystem/stav-zadanky",
+      "version" : "1.0.0"
+    } ]
+  }
+}

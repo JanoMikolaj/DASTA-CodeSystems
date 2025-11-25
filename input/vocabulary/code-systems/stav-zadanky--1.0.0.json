@@ -1,0 +1,67 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "stav-zadanky--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/stav-zadanky"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/stav-zadanky",
+  "version" : "1.0.0",
+  "title" : "Stav žádanky",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "E-order status"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "National eHealth Center (NCEZ)",
+  "description" : "Stav žádanky v systému eŽádanky.",
+  "effectivePeriod" : {
+    "start" : "2025-08-04T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "0",
+    "display" : "Nová",
+    "definition" : "Po vytvoření ze strany žadatele."
+  }, {
+    "code" : "1",
+    "display" : "Přijatá",
+    "definition" : "Po přijetí ze strany příjemce / adresáta."
+  }, {
+    "code" : "2",
+    "display" : "Neproveditelná",
+    "definition" : "Po zaznačení ze strany příjemce / adresáta."
+  }, {
+    "code" : "3",
+    "display" : "Stornovaná",
+    "definition" : "Po zaznačení ze strany žadatele."
+  }, {
+    "code" : "4",
+    "display" : "Dokončená",
+    "definition" : "Po zaznačení ze strany příjemce / adresáta."
+  } ]
+}

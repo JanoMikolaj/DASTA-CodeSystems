@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "document-category--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/document-category"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/document-category",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Kategorie dokumentů",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Document category"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T14:36:29.065962Z",
+  "publisher" : "National eHealth Center (NCEZ)",
+  "description" : "Kategorie dokumentů pro vyhledávání",
+  "effectivePeriod" : {
+    "start" : "2025-11-18T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "http://loinc.org",
+      "version" : "2.81",
+      "concept" : [ {
+        "code" : "107904-5",
+        "display" : "Administrativní záznamy"
+      }, {
+        "code" : "18682-5",
+        "display" : "Záznamy zdravotnické záchranné služby"
+      }, {
+        "code" : "11503-0",
+        "display" : "Lékařské záznamy"
+      }, {
+        "code" : "11543-6",
+        "display" : "Ošetřovatelské záznamy"
+      }, {
+        "code" : "26436-6",
+        "display" : "Laboratorní nálezy"
+      }, {
+        "code" : "18726-0",
+        "display" : "Nálezy zobrazovacího komplementu"
+      }, {
+        "code" : "57133-1",
+        "display" : "Žádanky"
+      } ]
+    } ],
+    "property" : [ "display" ]
+  }
+}

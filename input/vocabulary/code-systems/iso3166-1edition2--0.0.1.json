@@ -1,0 +1,4288 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "iso3166-1edition2--0.0.1",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/CodeSystem/iso3166-1edition2"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "urn:iso:std:iso:3166",
+  "identifier" : [ {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.0.3166.1"
+  } ],
+  "version" : "0.0.1",
+  "name" : "Iso31661edition2",
+  "title" : "ISO 3166-1 Kódy zemí  — Part 1: Country code",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-25T08:25:06.514531Z",
+  "publisher" : "eHMSEG",
+  "description" : "eHDSICountry",
+  "effectivePeriod" : {
+    "start" : "2025-04-15T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "codeSystemId",
+    "type" : "string"
+  }, {
+    "code" : "codeSystemVersion",
+    "type" : "string"
+  }, {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "AD",
+    "display" : "Andorra",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ANDORRA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AE",
+    "display" : "Spojené arabské emiráty",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UNITED ARAB EMIRATES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AF",
+    "display" : "Afghánistán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "AFGHANISTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AG",
+    "display" : "Antigua a Barbuda",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ANTIGUA AND BARBUDA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AI",
+    "display" : "Anguilla",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ANGUILLA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AL",
+    "display" : "Albánie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ALBANIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AM",
+    "display" : "Arménie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ARMENIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AO",
+    "display" : "Angola",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ANGOLA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AQ",
+    "display" : "Antarktida",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ANTARCTICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AR",
+    "display" : "Argentina",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ARGENTINA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AS",
+    "display" : "Americká Samoa",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "AMERICAN SAMOA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AT",
+    "display" : "Rakousko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "AUSTRIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AU",
+    "display" : "Austrálie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "AUSTRALIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AW",
+    "display" : "Aruba",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ARUBA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AX",
+    "display" : "Alandy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ÅLAND ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "AZ",
+    "display" : "Ázerbájdžán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "AZERBAIJAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BA",
+    "display" : "Bosna a Hercegovina",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BOSNIA AND HERZEGOVINA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BB",
+    "display" : "Barbados",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BARBADOS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BD",
+    "display" : "Bangladéš",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BANGLADESH"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BE",
+    "display" : "Belgie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BELGIUM"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BF",
+    "display" : "Burkina Faso",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BURKINA FASO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BG",
+    "display" : "Bulharsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BULGARIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BH",
+    "display" : "Bahrajn",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BAHRAIN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BI",
+    "display" : "Burundi",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BURUNDI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BJ",
+    "display" : "Benin",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BENIN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BL",
+    "display" : "Svatý Bartoloměj",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT BARTHÉLEMY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BM",
+    "display" : "Bermudy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BERMUDA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BN",
+    "display" : "Brunej",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BRUNEI DARUSSALAM"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BO",
+    "display" : "Bolívie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BOLIVIA (PLURINATIONAL STATE OF)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BQ",
+    "display" : "Bonaire, Svatý Eustach a Saba",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BONAIRE, SINT EUSTATIUS AND SABA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BR",
+    "display" : "Brazílie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BRAZIL"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BS",
+    "display" : "Bahamy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BAHAMAS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BT",
+    "display" : "Bhútán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BHUTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BV",
+    "display" : "Bouvetův ostrov",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BOUVET ISLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BW",
+    "display" : "Botswana",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BOTSWANA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BY",
+    "display" : "Bělorusko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BELARUS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "BZ",
+    "display" : "Belize",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BELIZE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CA",
+    "display" : "Kanada",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CANADA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CC",
+    "display" : "Kokosové (Keelingovy) ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COCOS (KEELING) ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CD",
+    "display" : "Demokratická republika Kongo",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CONGO, DEMOCRATIC REPUBLIC OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CF",
+    "display" : "Středoafrická republika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CENTRAL AFRICAN REPUBLIC"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CG",
+    "display" : "Konžská republika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CONGO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CH",
+    "display" : "Švýcarsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SWITZERLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CI",
+    "display" : "Pobřeží slonoviny",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COTE D'IVOIRE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CK",
+    "display" : "Cookovy ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COOK ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CL",
+    "display" : "Chile",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CHILE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CM",
+    "display" : "Kamerun",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CAMEROON"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CN",
+    "display" : "Čína",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CHINA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CO",
+    "display" : "Kolumbie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COLOMBIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CR",
+    "display" : "Kostarika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COSTA RICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CU",
+    "display" : "Kuba",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CUBA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CV",
+    "display" : "Kapverdy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CAPE VERDE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CW",
+    "display" : "Curaçao",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CURACAO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CX",
+    "display" : "Vánoční ostrov",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CHRISTMAS ISLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CY",
+    "display" : "Kypr",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CYPRUS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "CZ",
+    "display" : "Česko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CZECH REPUBLIC"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DE",
+    "display" : "Německo",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GERMANY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DJ",
+    "display" : "Džibutsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "DJIBOUTI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DK",
+    "display" : "Dánsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "DENMARK"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DM",
+    "display" : "Dominika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "DOMINICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DO",
+    "display" : "Dominikánská republika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "DOMINICAN REPUBLIC"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "DZ",
+    "display" : "Alžírsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ALGERIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "EC",
+    "display" : "Ekvádor",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ECUADOR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "EE",
+    "display" : "Estonsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ESTONIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "EG",
+    "display" : "Egypt",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "EGYPT"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "EH",
+    "display" : "Západní Sahara",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "WESTERN SAHARA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ER",
+    "display" : "Eritrea",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ERITREA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ES",
+    "display" : "Španělsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SPAIN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ET",
+    "display" : "Etiopie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ETHIOPIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FI",
+    "display" : "Finsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FINLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FJ",
+    "display" : "Fidži",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FIJI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FK",
+    "display" : "Falklandy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FALKLAND ISLANDS (MALVINAS)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FM",
+    "display" : "Mikronésie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MICRONESIA (FEDERATED STATES OF)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FO",
+    "display" : "Faerské ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FAROE ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "FR",
+    "display" : "Francie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FRANCE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GA",
+    "display" : "Gabon",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GABON"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GB",
+    "display" : "Velká Británie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GD",
+    "display" : "Grenada",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GRENADA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GE",
+    "display" : "Gruzie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GEORGIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GF",
+    "display" : "Francouzská Guyana",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FRENCH GUIANA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GG",
+    "display" : "Guernsey",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUERNSEY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GH",
+    "display" : "Ghana",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GHANA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GI",
+    "display" : "Gibraltar",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GIBRALTAR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GL",
+    "display" : "Grónsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GREENLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GM",
+    "display" : "Gambie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GAMBIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GN",
+    "display" : "Guinea",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUINEA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GP",
+    "display" : "Guadeloupe",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUADELOUPE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GQ",
+    "display" : "Rovníková Guinea",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "EQUATORIAL GUINEA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GR",
+    "display" : "Řecko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GREECE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GS",
+    "display" : "Jižní Georgie a Jižní Sandwichovy ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GT",
+    "display" : "Guatemala",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUATEMALA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GU",
+    "display" : "Guam",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUAM"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GW",
+    "display" : "Guinea-Bissau",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUINEA-BISSAU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "GY",
+    "display" : "Guyana",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "GUYANA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HK",
+    "display" : "Hongkong",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HONG KONG"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HM",
+    "display" : "Heardův ostrov a MacDonaldovy ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HEARD ISLAND AND MCDONALD ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HN",
+    "display" : "Honduras",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HONDURAS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HR",
+    "display" : "Chorvatsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CROATIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HT",
+    "display" : "Haiti",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HAITI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "HU",
+    "display" : "Maďarsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HUNGARY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ID",
+    "display" : "Indonésie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "INDONESIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IE",
+    "display" : "Irsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "IRELAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IL",
+    "display" : "Izrael",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ISRAEL"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IM",
+    "display" : "Man",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ISLE OF MAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IN",
+    "display" : "Indie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "INDIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IO",
+    "display" : "Britské indickooceánské území",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "BRITISH INDIAN OCEAN TERRITORY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IQ",
+    "display" : "Irák",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "IRAQ"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IR",
+    "display" : "Írán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "IRAN (ISLAMIC REPUBLIC OF)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IS",
+    "display" : "Island",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ICELAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "IT",
+    "display" : "Itálie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ITALY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "JE",
+    "display" : "Jersey",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "JERSEY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "JM",
+    "display" : "Jamajka",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "JAMAICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "JO",
+    "display" : "Jordánsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "JORDAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "JP",
+    "display" : "Japonsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "JAPAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KE",
+    "display" : "Keňa",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KENYA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KG",
+    "display" : "Kyrgyzstán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KYRGYZSTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KH",
+    "display" : "Kambodža",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CAMBODIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KI",
+    "display" : "Kiribati",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KIRIBATI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KM",
+    "display" : "Komory",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "COMOROS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KN",
+    "display" : "Svatý Kryštof a Nevis",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT KITTS AND NEVIS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KP",
+    "display" : "Korejská lidově demokratická republika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KR",
+    "display" : "Korejská republika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KOREA, REPUBLIC OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KW",
+    "display" : "Kuvajt",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KUWAIT"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KY",
+    "display" : "Kajmanské ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CAYMAN ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "KZ",
+    "display" : "Kazachstán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "KAZAKHSTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LA",
+    "display" : "Laos",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LB",
+    "display" : "Libanon",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LEBANON"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LC",
+    "display" : "Svatá Lucie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT LUCIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LI",
+    "display" : "Lichtenštejnsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LIECHTENSTEIN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LK",
+    "display" : "Šrí Lanka",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SRI LANKA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LR",
+    "display" : "Libérie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LIBERIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LS",
+    "display" : "Lesotho",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LESOTHO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LT",
+    "display" : "Litva",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LITHUANIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LU",
+    "display" : "Lucembursko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LUXEMBOURG"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LV",
+    "display" : "Lotyšsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LATVIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "LY",
+    "display" : "Libye",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "LIBYA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MA",
+    "display" : "Maroko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MOROCCO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MC",
+    "display" : "Monako",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MONACO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MD",
+    "display" : "Moldavsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MOLDOVA, REPUBLIC OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ME",
+    "display" : "Černá Hora",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MONTENEGRO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MF",
+    "display" : "Svatý Martin (FR)",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT MARTIN (FRENCH PART)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MG",
+    "display" : "Madagaskar",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MADAGASCAR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MH",
+    "display" : "Marshallovy ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MARSHALL ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MK",
+    "display" : "Makedonie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ML",
+    "display" : "Mali",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MALI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MM",
+    "display" : "Myanmar",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MYANMAR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MN",
+    "display" : "Mongolsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MONGOLIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MO",
+    "display" : "Macao",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MACAO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MP",
+    "display" : "Severní Mariany",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NORTHERN MARIANA ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MQ",
+    "display" : "Martinik",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MARTINIQUE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MR",
+    "display" : "Mauritánie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MAURITANIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MS",
+    "display" : "Montserrat",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MONTSERRAT"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MT",
+    "display" : "Malta",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MALTA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MU",
+    "display" : "Mauricius",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MAURITIUS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MV",
+    "display" : "Maledivy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MALDIVES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MW",
+    "display" : "Malawi",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MALAWI"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MX",
+    "display" : "Mexiko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MEXICO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MY",
+    "display" : "Malajsie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MALAYSIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "MZ",
+    "display" : "Mosambik",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MOZAMBIQUE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NA",
+    "display" : "Namibie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NAMIBIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NC",
+    "display" : "Nová Kaledonie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NEW CALEDONIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NE",
+    "display" : "Niger",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NIGER"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NF",
+    "display" : "Norfolk",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NORFOLK ISLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NG",
+    "display" : "Nigérie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NIGERIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NI",
+    "display" : "Nikaragua",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NICARAGUA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NL",
+    "display" : "Nizozemsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NETHERLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NO",
+    "display" : "Norsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NORWAY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NP",
+    "display" : "Nepál",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NEPAL"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NR",
+    "display" : "Nauru",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NAURU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NU",
+    "display" : "Niue",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NIUE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "NZ",
+    "display" : "Nový Zéland",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "NEW ZEALAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "OM",
+    "display" : "Omán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "OMAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PA",
+    "display" : "Panama",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PANAMA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PE",
+    "display" : "Peru",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PERU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PF",
+    "display" : "Francouzská Polynésie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FRENCH POLYNESIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PG",
+    "display" : "Papua Nová Guinea",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PAPUA NEW GUINEA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PH",
+    "display" : "Filipíny",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PHILIPPINES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PK",
+    "display" : "Pákistán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PAKISTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PL",
+    "display" : "Polsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "POLAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PM",
+    "display" : "Saint Pierre a Miquelon",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT PIERRE AND MIQUELON"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PN",
+    "display" : "Pitcairn",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PITCAIRN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PR",
+    "display" : "Portoriko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PUERTO RICO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PS",
+    "display" : "Palestina",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PALESTINE, STATE OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PT",
+    "display" : "Portugalsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PORTUGAL"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PW",
+    "display" : "Palau",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PALAU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "PY",
+    "display" : "Paraguay",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PARAGUAY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "QA",
+    "display" : "Katar",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "QATAR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "RE",
+    "display" : "Réunion",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "REUNION"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "RO",
+    "display" : "Rumunsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ROMANIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "RS",
+    "display" : "Srbsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SERBIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "RU",
+    "display" : "Rusko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "RUSSIAN FEDERATION"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "RW",
+    "display" : "Rwanda",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "RWANDA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SA",
+    "display" : "Saúdská Arábie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAUDI ARABIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SB",
+    "display" : "Šalomounovy ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SOLOMON ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SC",
+    "display" : "Seychely",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SEYCHELLES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SD",
+    "display" : "Súdán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SUDAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SE",
+    "display" : "Švédsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SWEDEN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SG",
+    "display" : "Singapur",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SINGAPORE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SH",
+    "display" : "Svatá Helena",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SI",
+    "display" : "Slovinsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SLOVENIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SJ",
+    "display" : "Špicberky a Jan Mayen",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SVALBARD AND JAN MAYEN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SK",
+    "display" : "Slovensko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SLOVAKIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SL",
+    "display" : "Sierra Leone",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SIERRA LEONE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SM",
+    "display" : "San Marino",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAN MARINO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SN",
+    "display" : "Senegal",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SENEGAL"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SO",
+    "display" : "Somálsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SOMALIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SR",
+    "display" : "Surinam",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SURINAME"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SS",
+    "display" : "Jižní Súdán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SOUTH SUDAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ST",
+    "display" : "Svatý Tomáš a Princův ostrov",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAO TOME AND PRINCIPE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SV",
+    "display" : "Salvador",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "EL SALVADOR"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SX",
+    "display" : "Svatý Martin (NL)",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SINT MAARTEN (DUTCH PART)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SY",
+    "display" : "Sýrie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SYRIAN ARAB REPUBLIC"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "SZ",
+    "display" : "Svazijsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SWAZILAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TC",
+    "display" : "Turks a Caicos",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TURKS AND CAICOS ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TD",
+    "display" : "Čad",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "CHAD"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TF",
+    "display" : "Francouzská jižní a antarktická území",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "FRENCH SOUTHERN TERRITORIES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TG",
+    "display" : "Togo",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TOGO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TH",
+    "display" : "Thajsko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "THAILAND"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TJ",
+    "display" : "Tádžikistán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TAJIKISTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TK",
+    "display" : "Tokelau",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TOKELAU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TL",
+    "display" : "Východní Timor",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TIMOR-LESTE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TM",
+    "display" : "Turkmenistán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TURKMENISTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TN",
+    "display" : "Tunisko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TUNISIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TO",
+    "display" : "Tonga",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TONGA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TR",
+    "display" : "Turecko",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TURKEY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TT",
+    "display" : "Trinidad a Tobago",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TRINIDAD AND TOBAGO"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TV",
+    "display" : "Tuvalu",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TUVALU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TW",
+    "display" : "Tchaj-wan",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TAIWAN, PROVINCE OF CHINA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "TZ",
+    "display" : "Tanzanie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "TANZANIA, UNITED REPUBLIC OF"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "UA",
+    "display" : "Ukrajina",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UKRAINE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "UG",
+    "display" : "Uganda",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UGANDA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "UM",
+    "display" : "Menší odlehlé ostrovy USA",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UNITED STATES MINOR OUTLYING ISLANDS"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "US",
+    "display" : "Spojené státy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UNITED STATES OF AMERICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "UY",
+    "display" : "Uruguay",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "URUGUAY"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "UZ",
+    "display" : "Uzbekistán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "UZBEKISTAN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VA",
+    "display" : "Vatikán",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "HOLY SEE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VC",
+    "display" : "Svatý Vincenc a Grenadiny",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAINT VINCENT AND THE GRENADINES"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VE",
+    "display" : "Venezuela",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VG",
+    "display" : "Britské Panenské ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "VIRGIN ISLANDS, BRITISH"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VI",
+    "display" : "Americké Panenské ostrovy",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "VIRGIN ISLANDS, U.S."
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VN",
+    "display" : "Vietnam",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "VIET NAM"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "VU",
+    "display" : "Vanuatu",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "VANUATU"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "WF",
+    "display" : "Wallis a Futuna",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "WALLIS AND FUTUNA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "WS",
+    "display" : "Samoa",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SAMOA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "YE",
+    "display" : "Jemen",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "YEMEN"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "YT",
+    "display" : "Mayotte",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "MAYOTTE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ZA",
+    "display" : "Jižní Afrika",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "SOUTH AFRICA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ZM",
+    "display" : "Zambie",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ZAMBIA"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  }, {
+    "code" : "ZW",
+    "display" : "Zimbabwe",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ZIMBABWE"
+    } ],
+    "property" : [ {
+      "code" : "codeSystemId",
+      "valueString" : "1.0.3166.1"
+    }, {
+      "code" : "codeSystemVersion",
+      "valueString" : "2006-2nd"
+    } ]
+  } ]
+}

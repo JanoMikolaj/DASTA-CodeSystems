@@ -1,0 +1,42 @@
+Alias: $v3-mediaType = http://terminology.hl7.org/CodeSystem/v3-mediaType
+
+ValueSet: MediaType100
+Id: media-type--1.0.0
+Title: "Media type"
+* ^extension.url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
+* ^extension.valueUrl = "https://termtest.mzcr.cz/fhir/ValueSet/media-type"
+* ^url = "https://hl7.cz/terminology/ValueSet/media-type"
+* ^version = "1.0.0"
+* ^versionAlgorithmString = "semver"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-11-20T07:46:15.62037Z"
+* ^publisher = "HL7 Czech Republic"
+* ^effectivePeriod.start = "2025-11-20T00:00:00Z"
+* ^compose.inactive = false
+* ^compose.property = "display"
+* $v3-mediaType#application/dicom "DICOM"
+* $v3-mediaType#application/fhir+json "FHIR (JSON)"
+* $v3-mediaType#application/fhir+xml "FHIR (XML)"
+* $v3-mediaType#application/pdf "PDF"
+* $v3-mediaType#audio/mp4 "MP4 Audio"
+* $v3-mediaType#audio/mpeg "MPEG audio layer 3"
+* $v3-mediaType#image/gif "GIF Graphics Interchange Format"
+* $v3-mediaType#image/jp2 "JPEG 2000 Core Image File"
+* $v3-mediaType#image/jpeg "JPEG Image"
+* $v3-mediaType#image/jpm "JPEG 2000 Compound Image File"
+* $v3-mediaType#image/jpx "JPEG 2000 Image File"
+* $v3-mediaType#image/png "PNG Portable Network Graphics"
+* $v3-mediaType#image/tiff "TIFF Image"
+* $v3-mediaType#model/vrml "Virtual Reality Modeling Language"
+* $v3-mediaType#model/x3d+xml "Extensible 3D Graphics (XML)"
+* $v3-mediaType#model/x3d-vrml "Extensible 3D Graphics (VRML)"
+* $v3-mediaType#multipart/multilingual "Multilingual Multipart"
+* $v3-mediaType#multipart/signed "Signed Multipart"
+* $v3-mediaType#multipart/x-hl7-cda-level1 "CDA Level 1 Multipart"
+* $v3-mediaType#text/csv "CSV Comma-separated Values"
+* $v3-mediaType#text/plain "Plain Text"
+* $v3-mediaType#text/xml "XML-Text"
+* $v3-mediaType#video/mj2 "Motion JPEG 2000"
+* $v3-mediaType#video/mp4 "MPEG-4 Part 14"
+* $v3-mediaType#video/mpeg "MPEG Video"

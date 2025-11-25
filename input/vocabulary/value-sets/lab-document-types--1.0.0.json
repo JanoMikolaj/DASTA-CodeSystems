@@ -1,0 +1,64 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lab-document-types--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/lab-document-types"
+  } ],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "Typy laboratorních dokumentů",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "Lab document types"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T13:46:00.42162Z",
+  "publisher" : "National eHealth Center (NCEZ)",
+  "effectivePeriod" : {
+    "start" : "2025-11-18T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "http://loinc.org",
+      "version" : "2.81",
+      "concept" : [ {
+        "code" : "18716-1",
+        "display" : "Laboratorní zpráva alergologická"
+      }, {
+        "code" : "18717-9",
+        "display" : "Labortorní zpráva transfůzní"
+      }, {
+        "code" : "18719-5",
+        "display" : "Laboratoní zpráva biochemická"
+      }, {
+        "code" : "18722-9",
+        "display" : "Laboratoní zpráva reprodukční"
+      }, {
+        "code" : "18723-7",
+        "display" : "Laboratoní zpráva hematologická"
+      }, {
+        "code" : "18725-2",
+        "display" : "Laboratoní zpráva mikrobiologická"
+      }, {
+        "code" : "18728-6",
+        "display" : "Laboratoní zpráva toxikologická"
+      }, {
+        "code" : "26436-6",
+        "display" : "Laboratoní zpráva"
+      } ]
+    } ]
+  }
+}

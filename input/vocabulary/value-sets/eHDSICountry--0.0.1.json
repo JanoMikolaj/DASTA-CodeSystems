@@ -1,0 +1,1788 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSICountry--0.0.1",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termtest.mzcr.cz/fhir/ValueSet/eHDSICountry"
+  } ],
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICountry",
+  "identifier" : [ {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4"
+  } ],
+  "version" : "0.0.1",
+  "name" : "eHDSICountry",
+  "title" : "eHDSI Country",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T17:26:05.626338Z",
+  "publisher" : "eHMSEG",
+  "description" : "The Value Set is used to identify the nationality of all persons and organizations.",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "en"
+      }, {
+        "url" : "content",
+        "valueString" : "The Value Set is used to identify the nationality of all persons and organizations."
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2025-04-15T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "urn:iso:std:iso:3166",
+      "version" : "0.0.1",
+      "concept" : [ {
+        "code" : "AQ",
+        "display" : "Antarktida",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ANTARCTICA"
+        } ]
+      }, {
+        "code" : "AT",
+        "display" : "Rakousko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "AUSTRIA"
+        } ]
+      }, {
+        "code" : "BB",
+        "display" : "Barbados",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BARBADOS"
+        } ]
+      }, {
+        "code" : "BD",
+        "display" : "Bangladéš",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BANGLADESH"
+        } ]
+      }, {
+        "code" : "BN",
+        "display" : "Brunej",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BRUNEI DARUSSALAM"
+        } ]
+      }, {
+        "code" : "CO",
+        "display" : "Kolumbie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COLOMBIA"
+        } ]
+      }, {
+        "code" : "CR",
+        "display" : "Kostarika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COSTA RICA"
+        } ]
+      }, {
+        "code" : "GL",
+        "display" : "Grónsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GREENLAND"
+        } ]
+      }, {
+        "code" : "GP",
+        "display" : "Guadeloupe",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUADELOUPE"
+        } ]
+      }, {
+        "code" : "GY",
+        "display" : "Guyana",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUYANA"
+        } ]
+      }, {
+        "code" : "ID",
+        "display" : "Indonésie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "INDONESIA"
+        } ]
+      }, {
+        "code" : "IE",
+        "display" : "Irsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "IRELAND"
+        } ]
+      }, {
+        "code" : "IQ",
+        "display" : "Irák",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "IRAQ"
+        } ]
+      }, {
+        "code" : "KE",
+        "display" : "Keňa",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KENYA"
+        } ]
+      }, {
+        "code" : "KI",
+        "display" : "Kiribati",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KIRIBATI"
+        } ]
+      }, {
+        "code" : "KZ",
+        "display" : "Kazachstán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KAZAKHSTAN"
+        } ]
+      }, {
+        "code" : "LC",
+        "display" : "Svatá Lucie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT LUCIA"
+        } ]
+      }, {
+        "code" : "MO",
+        "display" : "Macao",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MACAO"
+        } ]
+      }, {
+        "code" : "NF",
+        "display" : "Norfolk",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NORFOLK ISLAND"
+        } ]
+      }, {
+        "code" : "NG",
+        "display" : "Nigérie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NIGERIA"
+        } ]
+      }, {
+        "code" : "NZ",
+        "display" : "Nový Zéland",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NEW ZEALAND"
+        } ]
+      }, {
+        "code" : "RO",
+        "display" : "Rumunsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ROMANIA"
+        } ]
+      }, {
+        "code" : "RU",
+        "display" : "Rusko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "RUSSIAN FEDERATION"
+        } ]
+      }, {
+        "code" : "SB",
+        "display" : "Šalomounovy ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SOLOMON ISLANDS"
+        } ]
+      }, {
+        "code" : "SO",
+        "display" : "Somálsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SOMALIA"
+        } ]
+      }, {
+        "code" : "TM",
+        "display" : "Turkmenistán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TURKMENISTAN"
+        } ]
+      }, {
+        "code" : "TN",
+        "display" : "Tunisko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TUNISIA"
+        } ]
+      }, {
+        "code" : "TO",
+        "display" : "Tonga",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TONGA"
+        } ]
+      }, {
+        "code" : "TT",
+        "display" : "Trinidad a Tobago",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TRINIDAD AND TOBAGO"
+        } ]
+      }, {
+        "code" : "VC",
+        "display" : "Svatý Vincenc a Grenadiny",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT VINCENT AND THE GRENADINES"
+        } ]
+      }, {
+        "code" : "YT",
+        "display" : "Mayotte",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MAYOTTE"
+        } ]
+      }, {
+        "code" : "AI",
+        "display" : "Anguilla",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ANGUILLA"
+        } ]
+      }, {
+        "code" : "BQ",
+        "display" : "Bonaire, Svatý Eustach a Saba",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BONAIRE, SINT EUSTATIUS AND SABA"
+        } ]
+      }, {
+        "code" : "BT",
+        "display" : "Bhútán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BHUTAN"
+        } ]
+      }, {
+        "code" : "CG",
+        "display" : "Konžská republika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CONGO"
+        } ]
+      }, {
+        "code" : "CL",
+        "display" : "Chile",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CHILE"
+        } ]
+      }, {
+        "code" : "CV",
+        "display" : "Kapverdy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CAPE VERDE"
+        } ]
+      }, {
+        "code" : "EC",
+        "display" : "Ekvádor",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ECUADOR"
+        } ]
+      }, {
+        "code" : "ER",
+        "display" : "Eritrea",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ERITREA"
+        } ]
+      }, {
+        "code" : "FJ",
+        "display" : "Fidži",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FIJI"
+        } ]
+      }, {
+        "code" : "GT",
+        "display" : "Guatemala",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUATEMALA"
+        } ]
+      }, {
+        "code" : "IT",
+        "display" : "Itálie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ITALY"
+        } ]
+      }, {
+        "code" : "KW",
+        "display" : "Kuvajt",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KUWAIT"
+        } ]
+      }, {
+        "code" : "ME",
+        "display" : "Černá Hora",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MONTENEGRO"
+        } ]
+      }, {
+        "code" : "MK",
+        "display" : "Makedonie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+        } ]
+      }, {
+        "code" : "ML",
+        "display" : "Mali",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MALI"
+        } ]
+      }, {
+        "code" : "MP",
+        "display" : "Severní Mariany",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NORTHERN MARIANA ISLANDS"
+        } ]
+      }, {
+        "code" : "MV",
+        "display" : "Maledivy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MALDIVES"
+        } ]
+      }, {
+        "code" : "OM",
+        "display" : "Omán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "OMAN"
+        } ]
+      }, {
+        "code" : "PE",
+        "display" : "Peru",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PERU"
+        } ]
+      }, {
+        "code" : "PR",
+        "display" : "Portoriko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PUERTO RICO"
+        } ]
+      }, {
+        "code" : "RE",
+        "display" : "Réunion",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "REUNION"
+        } ]
+      }, {
+        "code" : "SS",
+        "display" : "Jižní Súdán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SOUTH SUDAN"
+        } ]
+      }, {
+        "code" : "SV",
+        "display" : "Salvador",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "EL SALVADOR"
+        } ]
+      }, {
+        "code" : "SY",
+        "display" : "Sýrie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SYRIAN ARAB REPUBLIC"
+        } ]
+      }, {
+        "code" : "TG",
+        "display" : "Togo",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TOGO"
+        } ]
+      }, {
+        "code" : "TK",
+        "display" : "Tokelau",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TOKELAU"
+        } ]
+      }, {
+        "code" : "TW",
+        "display" : "Tchaj-wan",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TAIWAN, PROVINCE OF CHINA"
+        } ]
+      }, {
+        "code" : "TZ",
+        "display" : "Tanzanie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TANZANIA, UNITED REPUBLIC OF"
+        } ]
+      }, {
+        "code" : "VI",
+        "display" : "Americké Panenské ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "VIRGIN ISLANDS, U.S."
+        } ]
+      }, {
+        "code" : "YE",
+        "display" : "Jemen",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "YEMEN"
+        } ]
+      }, {
+        "code" : "AL",
+        "display" : "Albánie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ALBANIA"
+        } ]
+      }, {
+        "code" : "AS",
+        "display" : "Americká Samoa",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "AMERICAN SAMOA"
+        } ]
+      }, {
+        "code" : "AW",
+        "display" : "Aruba",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ARUBA"
+        } ]
+      }, {
+        "code" : "BF",
+        "display" : "Burkina Faso",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BURKINA FASO"
+        } ]
+      }, {
+        "code" : "BJ",
+        "display" : "Benin",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BENIN"
+        } ]
+      }, {
+        "code" : "BM",
+        "display" : "Bermudy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BERMUDA"
+        } ]
+      }, {
+        "code" : "CF",
+        "display" : "Středoafrická republika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CENTRAL AFRICAN REPUBLIC"
+        } ]
+      }, {
+        "code" : "CI",
+        "display" : "Pobřeží slonoviny",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COTE D'IVOIRE"
+        } ]
+      }, {
+        "code" : "CM",
+        "display" : "Kamerun",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CAMEROON"
+        } ]
+      }, {
+        "code" : "DZ",
+        "display" : "Alžírsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ALGERIA"
+        } ]
+      }, {
+        "code" : "EG",
+        "display" : "Egypt",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "EGYPT"
+        } ]
+      }, {
+        "code" : "GA",
+        "display" : "Gabon",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GABON"
+        } ]
+      }, {
+        "code" : "GD",
+        "display" : "Grenada",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GRENADA"
+        } ]
+      }, {
+        "code" : "GS",
+        "display" : "Jižní Georgie a Jižní Sandwichovy ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+        } ]
+      }, {
+        "code" : "IO",
+        "display" : "Britské indickooceánské území",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BRITISH INDIAN OCEAN TERRITORY"
+        } ]
+      }, {
+        "code" : "JM",
+        "display" : "Jamajka",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "JAMAICA"
+        } ]
+      }, {
+        "code" : "JP",
+        "display" : "Japonsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "JAPAN"
+        } ]
+      }, {
+        "code" : "KG",
+        "display" : "Kyrgyzstán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KYRGYZSTAN"
+        } ]
+      }, {
+        "code" : "LR",
+        "display" : "Libérie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LIBERIA"
+        } ]
+      }, {
+        "code" : "MF",
+        "display" : "Svatý Martin (FR)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT MARTIN (FRENCH PART)"
+        } ]
+      }, {
+        "code" : "MQ",
+        "display" : "Martinik",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MARTINIQUE"
+        } ]
+      }, {
+        "code" : "MT",
+        "display" : "Malta",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MALTA"
+        } ]
+      }, {
+        "code" : "MU",
+        "display" : "Mauricius",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MAURITIUS"
+        } ]
+      }, {
+        "code" : "MW",
+        "display" : "Malawi",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MALAWI"
+        } ]
+      }, {
+        "code" : "MX",
+        "display" : "Mexiko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MEXICO"
+        } ]
+      }, {
+        "code" : "NL",
+        "display" : "Nizozemsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NETHERLANDS"
+        } ]
+      }, {
+        "code" : "PY",
+        "display" : "Paraguay",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PARAGUAY"
+        } ]
+      }, {
+        "code" : "SC",
+        "display" : "Seychely",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SEYCHELLES"
+        } ]
+      }, {
+        "code" : "SD",
+        "display" : "Súdán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SUDAN"
+        } ]
+      }, {
+        "code" : "SG",
+        "display" : "Singapur",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SINGAPORE"
+        } ]
+      }, {
+        "code" : "SH",
+        "display" : "Svatá Helena",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
+        } ]
+      }, {
+        "code" : "SK",
+        "display" : "Slovensko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SLOVAKIA"
+        } ]
+      }, {
+        "code" : "SR",
+        "display" : "Surinam",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SURINAME"
+        } ]
+      }, {
+        "code" : "TC",
+        "display" : "Turks a Caicos",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TURKS AND CAICOS ISLANDS"
+        } ]
+      }, {
+        "code" : "TH",
+        "display" : "Thajsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "THAILAND"
+        } ]
+      }, {
+        "code" : "TL",
+        "display" : "Východní Timor",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TIMOR-LESTE"
+        } ]
+      }, {
+        "code" : "UY",
+        "display" : "Uruguay",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "URUGUAY"
+        } ]
+      }, {
+        "code" : "WF",
+        "display" : "Wallis a Futuna",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "WALLIS AND FUTUNA"
+        } ]
+      }, {
+        "code" : "AR",
+        "display" : "Argentina",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ARGENTINA"
+        } ]
+      }, {
+        "code" : "BE",
+        "display" : "Belgie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BELGIUM"
+        } ]
+      }, {
+        "code" : "BO",
+        "display" : "Bolívie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BOLIVIA (PLURINATIONAL STATE OF)"
+        } ]
+      }, {
+        "code" : "CD",
+        "display" : "Demokratická republika Kongo",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CONGO, DEMOCRATIC REPUBLIC OF"
+        } ]
+      }, {
+        "code" : "CY",
+        "display" : "Kypr",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CYPRUS"
+        } ]
+      }, {
+        "code" : "DE",
+        "display" : "Německo",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GERMANY"
+        } ]
+      }, {
+        "code" : "ET",
+        "display" : "Etiopie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ETHIOPIA"
+        } ]
+      }, {
+        "code" : "FK",
+        "display" : "Falklandy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FALKLAND ISLANDS (MALVINAS)"
+        } ]
+      }, {
+        "code" : "FM",
+        "display" : "Mikronésie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MICRONESIA (FEDERATED STATES OF)"
+        } ]
+      }, {
+        "code" : "FR",
+        "display" : "Francie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FRANCE"
+        } ]
+      }, {
+        "code" : "GM",
+        "display" : "Gambie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GAMBIA"
+        } ]
+      }, {
+        "code" : "GN",
+        "display" : "Guinea",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUINEA"
+        } ]
+      }, {
+        "code" : "GQ",
+        "display" : "Rovníková Guinea",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "EQUATORIAL GUINEA"
+        } ]
+      }, {
+        "code" : "HN",
+        "display" : "Honduras",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HONDURAS"
+        } ]
+      }, {
+        "code" : "HU",
+        "display" : "Maďarsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HUNGARY"
+        } ]
+      }, {
+        "code" : "IR",
+        "display" : "Írán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "IRAN (ISLAMIC REPUBLIC OF)"
+        } ]
+      }, {
+        "code" : "MC",
+        "display" : "Monako",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MONACO"
+        } ]
+      }, {
+        "code" : "MN",
+        "display" : "Mongolsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MONGOLIA"
+        } ]
+      }, {
+        "code" : "MY",
+        "display" : "Malajsie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MALAYSIA"
+        } ]
+      }, {
+        "code" : "NO",
+        "display" : "Norsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NORWAY"
+        } ]
+      }, {
+        "code" : "SI",
+        "display" : "Slovinsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SLOVENIA"
+        } ]
+      }, {
+        "code" : "US",
+        "display" : "Spojené státy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UNITED STATES OF AMERICA"
+        } ]
+      }, {
+        "code" : "VA",
+        "display" : "Vatikán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HOLY SEE"
+        } ]
+      }, {
+        "code" : "AD",
+        "display" : "Andorra",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ANDORRA"
+        } ]
+      }, {
+        "code" : "AZ",
+        "display" : "Ázerbájdžán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "AZERBAIJAN"
+        } ]
+      }, {
+        "code" : "BV",
+        "display" : "Bouvetův ostrov",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BOUVET ISLAND"
+        } ]
+      }, {
+        "code" : "CA",
+        "display" : "Kanada",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CANADA"
+        } ]
+      }, {
+        "code" : "CX",
+        "display" : "Vánoční ostrov",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CHRISTMAS ISLAND"
+        } ]
+      }, {
+        "code" : "DJ",
+        "display" : "Džibutsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "DJIBOUTI"
+        } ]
+      }, {
+        "code" : "GG",
+        "display" : "Guernsey",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUERNSEY"
+        } ]
+      }, {
+        "code" : "GH",
+        "display" : "Ghana",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GHANA"
+        } ]
+      }, {
+        "code" : "GW",
+        "display" : "Guinea-Bissau",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUINEA-BISSAU"
+        } ]
+      }, {
+        "code" : "KR",
+        "display" : "Korejská republika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KOREA, REPUBLIC OF"
+        } ]
+      }, {
+        "code" : "LS",
+        "display" : "Lesotho",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LESOTHO"
+        } ]
+      }, {
+        "code" : "LU",
+        "display" : "Lucembursko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LUXEMBOURG"
+        } ]
+      }, {
+        "code" : "LV",
+        "display" : "Lotyšsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LATVIA"
+        } ]
+      }, {
+        "code" : "MS",
+        "display" : "Montserrat",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MONTSERRAT"
+        } ]
+      }, {
+        "code" : "NA",
+        "display" : "Namibie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NAMIBIA"
+        } ]
+      }, {
+        "code" : "PH",
+        "display" : "Filipíny",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PHILIPPINES"
+        } ]
+      }, {
+        "code" : "PK",
+        "display" : "Pákistán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PAKISTAN"
+        } ]
+      }, {
+        "code" : "PN",
+        "display" : "Pitcairn",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PITCAIRN"
+        } ]
+      }, {
+        "code" : "PW",
+        "display" : "Palau",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PALAU"
+        } ]
+      }, {
+        "code" : "RS",
+        "display" : "Srbsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SERBIA"
+        } ]
+      }, {
+        "code" : "SZ",
+        "display" : "Svazijsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SWAZILAND"
+        } ]
+      }, {
+        "code" : "UM",
+        "display" : "Menší odlehlé ostrovy USA",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UNITED STATES MINOR OUTLYING ISLANDS"
+        } ]
+      }, {
+        "code" : "ZA",
+        "display" : "Jižní Afrika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SOUTH AFRICA"
+        } ]
+      }, {
+        "code" : "AE",
+        "display" : "Spojené arabské emiráty",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UNITED ARAB EMIRATES"
+        } ]
+      }, {
+        "code" : "AX",
+        "display" : "Alandy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ÅLAND ISLANDS"
+        } ]
+      }, {
+        "code" : "BA",
+        "display" : "Bosna a Hercegovina",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BOSNIA AND HERZEGOVINA"
+        } ]
+      }, {
+        "code" : "BI",
+        "display" : "Burundi",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BURUNDI"
+        } ]
+      }, {
+        "code" : "BR",
+        "display" : "Brazílie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BRAZIL"
+        } ]
+      }, {
+        "code" : "BZ",
+        "display" : "Belize",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BELIZE"
+        } ]
+      }, {
+        "code" : "CH",
+        "display" : "Švýcarsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SWITZERLAND"
+        } ]
+      }, {
+        "code" : "CN",
+        "display" : "Čína",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CHINA"
+        } ]
+      }, {
+        "code" : "CU",
+        "display" : "Kuba",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CUBA"
+        } ]
+      }, {
+        "code" : "CZ",
+        "display" : "Česko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CZECH REPUBLIC"
+        } ]
+      }, {
+        "code" : "EE",
+        "display" : "Estonsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ESTONIA"
+        } ]
+      }, {
+        "code" : "FO",
+        "display" : "Faerské ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FAROE ISLANDS"
+        } ]
+      }, {
+        "code" : "GB",
+        "display" : "Velká Británie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+        } ]
+      }, {
+        "code" : "GR",
+        "display" : "Řecko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GREECE"
+        } ]
+      }, {
+        "code" : "HM",
+        "display" : "Heardův ostrov a MacDonaldovy ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HEARD ISLAND AND MCDONALD ISLANDS"
+        } ]
+      }, {
+        "code" : "HR",
+        "display" : "Chorvatsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CROATIA"
+        } ]
+      }, {
+        "code" : "IN",
+        "display" : "Indie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "INDIA"
+        } ]
+      }, {
+        "code" : "JE",
+        "display" : "Jersey",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "JERSEY"
+        } ]
+      }, {
+        "code" : "LI",
+        "display" : "Lichtenštejnsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LIECHTENSTEIN"
+        } ]
+      }, {
+        "code" : "MD",
+        "display" : "Moldavsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MOLDOVA, REPUBLIC OF"
+        } ]
+      }, {
+        "code" : "NI",
+        "display" : "Nikaragua",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NICARAGUA"
+        } ]
+      }, {
+        "code" : "NU",
+        "display" : "Niue",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NIUE"
+        } ]
+      }, {
+        "code" : "PS",
+        "display" : "Palestina",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PALESTINE, STATE OF"
+        } ]
+      }, {
+        "code" : "SE",
+        "display" : "Švédsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SWEDEN"
+        } ]
+      }, {
+        "code" : "SM",
+        "display" : "San Marino",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAN MARINO"
+        } ]
+      }, {
+        "code" : "SX",
+        "display" : "Svatý Martin (NL)",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SINT MAARTEN (DUTCH PART)"
+        } ]
+      }, {
+        "code" : "TR",
+        "display" : "Turecko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TURKEY"
+        } ]
+      }, {
+        "code" : "TV",
+        "display" : "Tuvalu",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TUVALU"
+        } ]
+      }, {
+        "code" : "UA",
+        "display" : "Ukrajina",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UKRAINE"
+        } ]
+      }, {
+        "code" : "VE",
+        "display" : "Venezuela",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+        } ]
+      }, {
+        "code" : "VU",
+        "display" : "Vanuatu",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "VANUATU"
+        } ]
+      }, {
+        "code" : "WS",
+        "display" : "Samoa",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAMOA"
+        } ]
+      }, {
+        "code" : "AF",
+        "display" : "Afghánistán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "AFGHANISTAN"
+        } ]
+      }, {
+        "code" : "AG",
+        "display" : "Antigua a Barbuda",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ANTIGUA AND BARBUDA"
+        } ]
+      }, {
+        "code" : "AM",
+        "display" : "Arménie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ARMENIA"
+        } ]
+      }, {
+        "code" : "AO",
+        "display" : "Angola",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ANGOLA"
+        } ]
+      }, {
+        "code" : "BG",
+        "display" : "Bulharsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BULGARIA"
+        } ]
+      }, {
+        "code" : "BS",
+        "display" : "Bahamy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BAHAMAS"
+        } ]
+      }, {
+        "code" : "BW",
+        "display" : "Botswana",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BOTSWANA"
+        } ]
+      }, {
+        "code" : "CK",
+        "display" : "Cookovy ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COOK ISLANDS"
+        } ]
+      }, {
+        "code" : "DO",
+        "display" : "Dominikánská republika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "DOMINICAN REPUBLIC"
+        } ]
+      }, {
+        "code" : "EH",
+        "display" : "Západní Sahara",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "WESTERN SAHARA"
+        } ]
+      }, {
+        "code" : "FI",
+        "display" : "Finsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FINLAND"
+        } ]
+      }, {
+        "code" : "GE",
+        "display" : "Gruzie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GEORGIA"
+        } ]
+      }, {
+        "code" : "IL",
+        "display" : "Izrael",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ISRAEL"
+        } ]
+      }, {
+        "code" : "KN",
+        "display" : "Svatý Kryštof a Nevis",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT KITTS AND NEVIS"
+        } ]
+      }, {
+        "code" : "LA",
+        "display" : "Laos",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+        } ]
+      }, {
+        "code" : "LB",
+        "display" : "Libanon",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LEBANON"
+        } ]
+      }, {
+        "code" : "LK",
+        "display" : "Šrí Lanka",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SRI LANKA"
+        } ]
+      }, {
+        "code" : "LT",
+        "display" : "Litva",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LITHUANIA"
+        } ]
+      }, {
+        "code" : "LY",
+        "display" : "Libye",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "LIBYA"
+        } ]
+      }, {
+        "code" : "MA",
+        "display" : "Maroko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MOROCCO"
+        } ]
+      }, {
+        "code" : "MH",
+        "display" : "Marshallovy ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MARSHALL ISLANDS"
+        } ]
+      }, {
+        "code" : "MZ",
+        "display" : "Mosambik",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MOZAMBIQUE"
+        } ]
+      }, {
+        "code" : "NC",
+        "display" : "Nová Kaledonie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NEW CALEDONIA"
+        } ]
+      }, {
+        "code" : "NE",
+        "display" : "Niger",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NIGER"
+        } ]
+      }, {
+        "code" : "NR",
+        "display" : "Nauru",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NAURU"
+        } ]
+      }, {
+        "code" : "PF",
+        "display" : "Francouzská Polynésie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FRENCH POLYNESIA"
+        } ]
+      }, {
+        "code" : "PG",
+        "display" : "Papua Nová Guinea",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PAPUA NEW GUINEA"
+        } ]
+      }, {
+        "code" : "QA",
+        "display" : "Katar",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "QATAR"
+        } ]
+      }, {
+        "code" : "RW",
+        "display" : "Rwanda",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "RWANDA"
+        } ]
+      }, {
+        "code" : "SA",
+        "display" : "Saúdská Arábie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAUDI ARABIA"
+        } ]
+      }, {
+        "code" : "SL",
+        "display" : "Sierra Leone",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SIERRA LEONE"
+        } ]
+      }, {
+        "code" : "SN",
+        "display" : "Senegal",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SENEGAL"
+        } ]
+      }, {
+        "code" : "TD",
+        "display" : "Čad",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CHAD"
+        } ]
+      }, {
+        "code" : "UZ",
+        "display" : "Uzbekistán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UZBEKISTAN"
+        } ]
+      }, {
+        "code" : "VG",
+        "display" : "Britské Panenské ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "VIRGIN ISLANDS, BRITISH"
+        } ]
+      }, {
+        "code" : "VN",
+        "display" : "Vietnam",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "VIET NAM"
+        } ]
+      }, {
+        "code" : "ZM",
+        "display" : "Zambie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ZAMBIA"
+        } ]
+      }, {
+        "code" : "AU",
+        "display" : "Austrálie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "AUSTRALIA"
+        } ]
+      }, {
+        "code" : "BH",
+        "display" : "Bahrajn",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BAHRAIN"
+        } ]
+      }, {
+        "code" : "BL",
+        "display" : "Svatý Bartoloměj",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT BARTHÉLEMY"
+        } ]
+      }, {
+        "code" : "BY",
+        "display" : "Bělorusko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "BELARUS"
+        } ]
+      }, {
+        "code" : "CC",
+        "display" : "Kokosové (Keelingovy) ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COCOS (KEELING) ISLANDS"
+        } ]
+      }, {
+        "code" : "CW",
+        "display" : "Curaçao",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CURACAO"
+        } ]
+      }, {
+        "code" : "DK",
+        "display" : "Dánsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "DENMARK"
+        } ]
+      }, {
+        "code" : "DM",
+        "display" : "Dominika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "DOMINICA"
+        } ]
+      }, {
+        "code" : "ES",
+        "display" : "Španělsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SPAIN"
+        } ]
+      }, {
+        "code" : "GF",
+        "display" : "Francouzská Guyana",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FRENCH GUIANA"
+        } ]
+      }, {
+        "code" : "GI",
+        "display" : "Gibraltar",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GIBRALTAR"
+        } ]
+      }, {
+        "code" : "GU",
+        "display" : "Guam",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "GUAM"
+        } ]
+      }, {
+        "code" : "HK",
+        "display" : "Hongkong",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HONG KONG"
+        } ]
+      }, {
+        "code" : "HT",
+        "display" : "Haiti",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "HAITI"
+        } ]
+      }, {
+        "code" : "IM",
+        "display" : "Man",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ISLE OF MAN"
+        } ]
+      }, {
+        "code" : "IS",
+        "display" : "Island",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ICELAND"
+        } ]
+      }, {
+        "code" : "JO",
+        "display" : "Jordánsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "JORDAN"
+        } ]
+      }, {
+        "code" : "KH",
+        "display" : "Kambodža",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CAMBODIA"
+        } ]
+      }, {
+        "code" : "KM",
+        "display" : "Komory",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "COMOROS"
+        } ]
+      }, {
+        "code" : "KP",
+        "display" : "Korejská lidově demokratická republika",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)"
+        } ]
+      }, {
+        "code" : "KY",
+        "display" : "Kajmanské ostrovy",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "CAYMAN ISLANDS"
+        } ]
+      }, {
+        "code" : "MG",
+        "display" : "Madagaskar",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MADAGASCAR"
+        } ]
+      }, {
+        "code" : "MM",
+        "display" : "Myanmar",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MYANMAR"
+        } ]
+      }, {
+        "code" : "MR",
+        "display" : "Mauritánie",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "MAURITANIA"
+        } ]
+      }, {
+        "code" : "NP",
+        "display" : "Nepál",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "NEPAL"
+        } ]
+      }, {
+        "code" : "PA",
+        "display" : "Panama",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PANAMA"
+        } ]
+      }, {
+        "code" : "PL",
+        "display" : "Polsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "POLAND"
+        } ]
+      }, {
+        "code" : "PM",
+        "display" : "Saint Pierre a Miquelon",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAINT PIERRE AND MIQUELON"
+        } ]
+      }, {
+        "code" : "PT",
+        "display" : "Portugalsko",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "PORTUGAL"
+        } ]
+      }, {
+        "code" : "SJ",
+        "display" : "Špicberky a Jan Mayen",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SVALBARD AND JAN MAYEN"
+        } ]
+      }, {
+        "code" : "ST",
+        "display" : "Svatý Tomáš a Princův ostrov",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "SAO TOME AND PRINCIPE"
+        } ]
+      }, {
+        "code" : "TF",
+        "display" : "Francouzská jižní a antarktická území",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "FRENCH SOUTHERN TERRITORIES"
+        } ]
+      }, {
+        "code" : "TJ",
+        "display" : "Tádžikistán",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "TAJIKISTAN"
+        } ]
+      }, {
+        "code" : "UG",
+        "display" : "Uganda",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "UGANDA"
+        } ]
+      }, {
+        "code" : "ZW",
+        "display" : "Zimbabwe",
+        "designation" : [ {
+          "language" : "en",
+          "value" : "ZIMBABWE"
+        } ]
+      } ]
+    } ]
+  }
+}
