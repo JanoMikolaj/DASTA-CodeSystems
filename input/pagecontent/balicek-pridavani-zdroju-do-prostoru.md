@@ -1,1 +1,0 @@
-<p><strong>Balíček</strong> představuje kolekci zdrojů v prostoru, jako jsou kódové systémy, číselníky a mapy konceptů, seskupené pro distribuci nebo použití.</p>

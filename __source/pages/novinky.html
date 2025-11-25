@@ -1,1 +1,0 @@
-<p>Nasazená verze: service: 0.0.23, web: 0.2.4</p><ol><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Zobrazení novinek na Úvodní stránce</li><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Rozšířené vyhledávání ve vlastnostech konceptů - Obsahuje, Rovná se, Zadáno, Nezadáno</li></ol>
