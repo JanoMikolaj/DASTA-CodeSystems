@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS04--1.0.0",
+  "url" : "VS04-severovychod-vetev",
+  "identifier" : [ {
+    "type" : {
+      "coding" : [ {
+        "code" : "version"
+      } ]
+    }
+  } ],
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "severovýchod-větev",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "severovýchod-větev"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-03T06:33:29.292867Z",
+  "description" : "Severovýchod a jeho kraje",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Severovýchod a jeho kraje"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2026-11-03T00:00:00Z"
+  },
+  "compose" : {
+    "include" : [ {
+      "system" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+      "version" : "1.2",
+      "filter" : [ {
+        "property" : "code",
+        "op" : "regex",
+        "value" : "^CZ05.*$"
+      } ]
+    } ]
+  }
+}

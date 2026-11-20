@@ -1,0 +1,248 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CZ-NUTS-de--1.2",
+  "language" : "de",
+  "extension" : [ {
+    "url" : "https://termx.org/fhir/StructureDefinition/supported-language",
+    "valueCode" : "cs"
+  }, {
+    "url" : "https://termx.org/fhir/StructureDefinition/supported-language",
+    "valueCode" : "de"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://example.org/termx-training/CodeSystem/cz-nuts-de",
+  "version" : "1.2",
+  "name" : "CZ-NUTS-de",
+  "title" : "TrainingCzNutsDe",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "TrainingCzNutsDe"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-11T07:36:06.270926Z",
+  "effectivePeriod" : {
+    "start" : "2026-11-09T00:00:00Z"
+  },
+  "content" : "supplement",
+  "supplements" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+  "count" : 4,
+  "property" : [ {
+    "code" : "extra-regio",
+    "type" : "boolean"
+  }, {
+    "code" : "jazyk",
+    "type" : "string"
+  }, {
+    "code" : "nuts-level",
+    "type" : "integer"
+  }, {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Parent",
+    "type" : "code"
+  }, {
+    "code" : "sms-level",
+    "type" : "integer"
+  }, {
+    "code" : "unit-type",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "CZ",
+    "display" : "Tschechien",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/designation-usage",
+        "code" : "display"
+      },
+      "value" : "Česko"
+    } ],
+    "property" : [ {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 0
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 0
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 1
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 1
+    }, {
+      "code" : "unit-type",
+      "valueString" : "Staat"
+    }, {
+      "code" : "unit-type",
+      "valueString" : "stat"
+    } ]
+  }, {
+    "code" : "CZ0",
+    "display" : "Tschechien",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/designation-usage",
+        "code" : "display"
+      },
+      "value" : "Česko"
+    } ],
+    "property" : [ {
+      "code" : "parent",
+      "valueCode" : "CZ"
+    }, {
+      "code" : "parent",
+      "valueCode" : "CZ"
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 1
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 1
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 2
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 2
+    }, {
+      "code" : "unit-type",
+      "valueString" : "Gebiet"
+    }, {
+      "code" : "unit-type",
+      "valueString" : "uzemie"
+    } ]
+  }, {
+    "code" : "CZ01",
+    "display" : "Prag",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/designation-usage",
+        "code" : "display"
+      },
+      "value" : "Praha"
+    } ],
+    "property" : [ {
+      "code" : "parent",
+      "valueCode" : "CZ0"
+    }, {
+      "code" : "parent",
+      "valueCode" : "CZ0"
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 2
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 2
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 3
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 3
+    }, {
+      "code" : "unit-type",
+      "valueString" : "Region der Zusammenarbeit"
+    }, {
+      "code" : "unit-type",
+      "valueString" : "region-sudrznosti"
+    } ]
+  }, {
+    "code" : "CZ010",
+    "display" : "Hauptstadt Prag",
+    "designation" : [ {
+      "language" : "cs",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/designation-usage",
+        "code" : "display"
+      },
+      "value" : "Hlavní město Praha"
+    } ],
+    "property" : [ {
+      "code" : "parent",
+      "valueCode" : "CZ01"
+    }, {
+      "code" : "parent",
+      "valueCode" : "CZ01"
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "extra-regio",
+      "valueBoolean" : false
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 3
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 3
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 4
+    }, {
+      "code" : "sms-level",
+      "valueInteger" : 4
+    }, {
+      "code" : "unit-type",
+      "valueString" : "Region"
+    }, {
+      "code" : "unit-type",
+      "valueString" : "kraj"
+    } ]
+  } ]
+}

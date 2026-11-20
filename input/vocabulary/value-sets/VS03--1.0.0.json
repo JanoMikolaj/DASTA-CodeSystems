@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS03--1.0.0",
+  "url" : "VS03-kraje-severovychodu",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "kraje-severovychodu",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "kraje-severovychodu"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-09T08:05:10.779212Z",
+  "description" : "Jen tři kraje Severovýchodu",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Jen tři kraje Severovýchodu"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2026-11-02T00:00:00Z"
+  },
+  "compose" : {
+    "include" : [ {
+      "system" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+      "version" : "1.2",
+      "filter" : [ {
+        "property" : "code",
+        "op" : "regex",
+        "value" : "^CZ05.+$"
+      } ]
+    } ]
+  }
+}

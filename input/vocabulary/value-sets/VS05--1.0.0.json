@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS05--1.0.0",
+  "url" : "VS05-vybrane-kraje",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "vybrané kraje",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "vybrané kraje"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-03T09:05:33.31585Z",
+  "description" : "Tři explicitně vybrané kraje",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Tři explicitně vybrané kraje"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2026-11-03T00:00:00Z"
+  },
+  "compose" : {
+    "include" : [ {
+      "system" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+      "version" : "1.2",
+      "concept" : [ {
+        "code" : "CZ010"
+      }, {
+        "code" : "CZ064"
+      }, {
+        "code" : "CZ080"
+      } ]
+    } ]
+  }
+}

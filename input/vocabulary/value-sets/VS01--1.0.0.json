@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS01--1.0.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "https://termx.org/fhir/StructureDefinition/supported-language",
+    "valueCode" : "cs"
+  } ],
+  "url" : "VS01-kraje",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "kraje",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-02T11:57:39.08098Z",
+  "description" : "Všechny kraje bez Extra-Regio",
+  "effectivePeriod" : {
+    "start" : "2026-11-02T00:00:00Z"
+  },
+  "compose" : {
+    "inactive" : false,
+    "include" : [ {
+      "system" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+      "version" : "1.2",
+      "filter" : [ {
+        "property" : "nuts-level",
+        "op" : "=",
+        "value" : "3"
+      }, {
+        "property" : "extra-regio",
+        "op" : "=",
+        "value" : "false"
+      } ]
+    } ]
+  }
+}

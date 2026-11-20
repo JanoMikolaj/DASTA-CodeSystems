@@ -1,0 +1,54 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS02--1.0.0",
+  "url" : "VS02-regiony-soudrznosti",
+  "version" : "1.0.0",
+  "versionAlgorithmString" : "semver",
+  "title" : "regiony-soudržnosti",
+  "_title" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "regiony-soudržnosti"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-03T09:05:48.325658Z",
+  "description" : "Regiony soudržnosti bez Extra-Regio",
+  "_description" : {
+    "extension" : [ {
+      "extension" : [ {
+        "url" : "lang",
+        "valueCode" : "cs"
+      }, {
+        "url" : "content",
+        "valueString" : "Regiony soudržnosti bez Extra-Regio"
+      } ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    } ]
+  },
+  "effectivePeriod" : {
+    "start" : "2026-11-02T00:00:00Z"
+  },
+  "compose" : {
+    "include" : [ {
+      "system" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+      "version" : "1.2",
+      "filter" : [ {
+        "property" : "nuts-level",
+        "op" : "=",
+        "value" : "2"
+      }, {
+        "property" : "extra-regio",
+        "op" : "=",
+        "value" : "false"
+      } ]
+    } ]
+  }
+}

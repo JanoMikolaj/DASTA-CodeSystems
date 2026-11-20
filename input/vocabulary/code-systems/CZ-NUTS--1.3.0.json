@@ -1,0 +1,409 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CZ-NUTS--1.3.0",
+  "language" : "cs",
+  "extension" : [ {
+    "url" : "https://termx.org/fhir/StructureDefinition/supported-language",
+    "valueCode" : "cs"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "https://example.org/termx-training/CodeSystem/cz-nuts",
+  "version" : "1.3.0",
+  "title" : "TrainingCzNuts",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-20T06:52:15.292716Z",
+  "effectivePeriod" : {
+    "start" : "2026-11-02T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "hierarchyMeaning" : "is-a",
+  "content" : "complete",
+  "count" : 29,
+  "property" : [ {
+    "code" : "jazyk",
+    "type" : "string"
+  }, {
+    "code" : "nuts-level",
+    "type" : "integer"
+  }, {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Parent",
+    "type" : "code"
+  } ],
+  "concept" : [ {
+    "code" : "CZ",
+    "display" : "Česko",
+    "property" : [ {
+      "code" : "jazyk",
+      "valueString" : "cs"
+    }, {
+      "code" : "nuts-level",
+      "valueInteger" : 0
+    } ],
+    "concept" : [ {
+      "code" : "CZ0",
+      "display" : "Česko",
+      "property" : [ {
+        "code" : "parent",
+        "valueCode" : "CZ"
+      }, {
+        "code" : "jazyk",
+        "valueString" : "cs"
+      }, {
+        "code" : "nuts-level",
+        "valueInteger" : 1
+      } ],
+      "concept" : [ {
+        "code" : "CZ01",
+        "display" : "Praha",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ010",
+          "display" : "Hlavní město Praha",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ01"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ02",
+        "display" : "Střední Čechy",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ020",
+          "display" : "Středočeský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ02"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ03",
+        "display" : "Jihozápad",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ031",
+          "display" : "Jihočeský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ03"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ032",
+          "display" : "Plzeňský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ03"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ04",
+        "display" : "Severozápad",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ041",
+          "display" : "Karlovarský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ04"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ042",
+          "display" : "Ústecký kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ04"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ05",
+        "display" : "Severovýchod",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ051",
+          "display" : "Liberecký kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ05"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ052",
+          "display" : "Královéhradecký kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ05"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ053",
+          "display" : "Pardubický kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ05"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ06",
+        "display" : "Jihovýchod",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ063",
+          "display" : "Kraj Vysočina",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ06"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ064",
+          "display" : "Jihomoravský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ06"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ07",
+        "display" : "Střední Morava",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ071",
+          "display" : "Olomoucký kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ07"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        }, {
+          "code" : "CZ072",
+          "display" : "Zlínský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ07"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZ08",
+        "display" : "Moravskoslezsko",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 2
+        } ],
+        "concept" : [ {
+          "code" : "CZ080",
+          "display" : "Moravskoslezský kraj",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZ08"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 3
+          } ]
+        } ]
+      }, {
+        "code" : "CZZ",
+        "display" : "Extra-Regio",
+        "property" : [ {
+          "code" : "parent",
+          "valueCode" : "CZ0"
+        }, {
+          "code" : "jazyk",
+          "valueString" : "cs"
+        }, {
+          "code" : "nuts-level",
+          "valueInteger" : 1
+        } ],
+        "concept" : [ {
+          "code" : "CZZZ",
+          "display" : "Extra-Regio",
+          "property" : [ {
+            "code" : "parent",
+            "valueCode" : "CZZ"
+          }, {
+            "code" : "jazyk",
+            "valueString" : "cs"
+          }, {
+            "code" : "nuts-level",
+            "valueInteger" : 2
+          } ],
+          "concept" : [ {
+            "code" : "CZZZZ",
+            "display" : "Extra-Regio",
+            "property" : [ {
+              "code" : "parent",
+              "valueCode" : "CZZZ"
+            }, {
+              "code" : "jazyk",
+              "valueString" : "cs"
+            }, {
+              "code" : "nuts-level",
+              "valueInteger" : 3
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "code" : "CZX",
+    "display" : "TestMC",
+    "concept" : [ {
+      "code" : "CZXX",
+      "display" : "TestMC01",
+      "property" : [ {
+        "code" : "parent",
+        "valueCode" : "CZX"
+      } ]
+    } ]
+  } ]
+}

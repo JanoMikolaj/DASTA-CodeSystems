@@ -1,7 +1,8 @@
 {
-  "web" : "https://termtest.mzcr.cz",
-  "code" : "ATC",
+  "web" : "https://termxweb2.mzcr-k8s-dev.assecosk.local",
+  "code" : "SEZ",
   "names" : {
-    "cs" : "ATC"
+    "cs" : "SEZ",
+    "en" : "SEZ"
   }
 }
